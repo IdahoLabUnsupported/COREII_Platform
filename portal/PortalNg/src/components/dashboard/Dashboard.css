@@ -1,0 +1,88 @@
+.dashboard {
+    background-color: rgb(33, 41, 54);
+}
+
+.dashboard-container {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+
+.dashboard-item {
+    /* background-color: rgb(57,65,80); */
+    display: flex;
+    flex-direction: column;
+
+    width: 18em;
+    height: 14.5em;
+    border-radius: var(--rounded-box, 1rem);
+    /* border:solid 1px green */
+}
+
+.dashboard-item-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: var(--rounded-box, 1rem);
+    border-top-right-radius: var(--rounded-box, 1rem);
+    /* background-color: rgb(77,85,98); */
+    padding: .25em 0;
+}
+
+.d-i-title-icon {
+    /* border: 1px solid yellow; */
+    /* background: white; */
+    background-size: cover;
+    border-radius: 10em;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0 .75em;
+}
+
+.d-i-trl-icon {
+    background-color: rgb(229, 159, 66);
+}
+
+.dashboard-item-body {
+    padding: .75em;
+    overflow: auto;
+}
+
+.d-i-body-text {
+    height: 7.8em;
+    /* max-height: 50%; */
+    font-size: 80%;
+    overflow: auto;
+}
+
+.d-i-body-trl {
+    margin: .5em 0 0 0;
+}
+
+.d-i-body-buttons {
+    display: flex;
+    flex-direction: row;
+    flex: end;
+}
+
+.d-i-button {
+    /* width: 100%; */
+    height: 1em !important;
+    min-height: 3em;
+    font-size: .6em;
+    text-wrap: nowrap;
+    padding: 1em 1.5em;
+    margin-left: 1em;
+}
+
+.d-i-body-buttons:first-child {
+    border: solid 1px red;
+}
+
+.button-info {
+    background-color: rgb(77, 85, 98);
+}
+
+/* .d-i-button-active */

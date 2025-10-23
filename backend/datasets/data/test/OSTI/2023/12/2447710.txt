@@ -1,0 +1,50 @@
+{
+    "osti_id": "2447710",
+    "title": "Visualizing metagenomic and metatranscriptomic data: A comprehensive review",
+    "doi": "https://doi.org/10.1016/j.csbj.2024.04.060",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "The fields of Metagenomics and Metatranscriptomics involve the examination of complete nucleotide sequences, gene identification, and analysis of potential biological functions within diverse organisms or environmental samples. Despite the vast opportunities for discovery in metagenomics, the sheer volume and complexity of sequence data often present challenges in processing analysis and visualization. This article highlights the critical role of advanced visualization tools in enabling effective exploration, querying, and analysis of these complex datasets. Emphasizing the importance of accessibility, the article categorizes various visualizers based on their intended applications and highlights their utility in empowering bioinformaticians and non-bioinformaticians to interpret and derive insights from meta-omics data effectively.",
+    "publication_date": "2024-12-01T00:00:00Z",
+    "entry_date": "2024-09-27T00:00:00Z",
+    "journal_name": "Computational and Structural Biotechnology Journal",
+    "format": "Medium: ED",
+    "authors": [
+        "Aplakidou, Eleni",
+        "Vergoulidis, Nikolaos",
+        "Chasapi, Maria",
+        "Venetsianou, Nefeli K",
+        "Kokoli, Maria",
+        "Panagiotopoulou, Eleni",
+        "Iliopoulos, Ioannis",
+        "Karatzas, Evangelos",
+        "Pafilis, Evangelos",
+        "Georgakopoulos-Soares, Ilias",
+        "Kyrpides, Nikos C",
+        "Pavlopoulos, Georgios A",
+        "Baltoumas, Fotis A"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC02-05CH11231",
+    "subjects": [],
+    "sponsor_orgs": [
+        "USDOE Office of Science (SC), Basic Energy Sciences (BES) (SC-22), Scientific User Facilities Division (SC-22.3 )"
+    ],
+    "research_orgs": [
+        "Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA (United States)"
+    ],
+    "other_identifiers": [
+        "ark:/13030/qt5sb2v4wk"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2447710"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2447710"
+        }
+    ]
+}

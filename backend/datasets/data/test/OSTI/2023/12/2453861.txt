@@ -1,0 +1,61 @@
+{
+    "osti_id": "2453861",
+    "title": "Design and optimization of flexible decoupled high-temperature gas-cooled reactor plants with thermal energy storage",
+    "report_number": "INL/JOU-24-76088-Rev000",
+    "doi": "https://doi.org/10.1016/j.enconman.2024.119098",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "Advanced nuclear power plants are well-positioned for future zero-carbon grids, however, the need for flexible power generation will be required over the traditional emphasis on baseload generation for meeting historical demands. To achieve such flexibility, this work examines viable configurations for coupling nuclear energy production with thermal energy storage. Previous designs on nuclear-thermal energy storage configurations for advanced reactor designs, which utilized reactor steam as the heat source for charging the thermal energy storage, are restricted by the heat diversion ratio and efficiency losses, thus their impacts can be limited. In this context, this study proposes configurations for fully decoupling the nuclear reactor from the power cycle and positioning the storage as an intermediate loop, thereby achieving an unconstrained heat diversion ratio and improved efficiency. Compared with a standard high-temperature gas-cooled reactor\u2019s power cycle, steady-state thermodynamic modeling and dispatch optimizations quantify the benefits of a steam reheat cycle within the fully decoupled thermal energy system to separate the plant cycle from the high-pressure primary side. These benefits are further detailed, compatible with required high-temperature and high-pressure conditions, through (1) open-source dynamic transient models that examine the impact of off-design operation on the systems, (2) the investigation of components design and costing and finally (3) sizing and dispatch optimization. The fully-decoupled design achieves a cycle efficiency of 43.1%, an enhancement over the vendor\u2019s standard efficiency of 42.2% (Xe-100 design). The proposed design offers strengthened physical barriers from the nuclear island as well as superior operational flexibility and power boosting. Dispatch optimization and market analysis reveal that thermal energy storage size is highly dependent on the peak patterns of electricity prices and the minimum generation level constraint imposed on the balance of plant. Evaluation of off-design operation demonstrates that the full decoupling design with the suggested fail-safe control mechanisms ensures a minimal impact on reactor parameters, even during rapid power ramping.",
+    "publication_date": "2024-12-31T00:00:00Z",
+    "entry_date": "2024-10-07T00:00:00Z",
+    "journal_name": "Energy Conversion and Management",
+    "journal_issue": "-",
+    "journal_volume": "321",
+    "format": "Medium: ED; Size: p. 1 - 18",
+    "authors": [
+        "Saeed, Rami M [Idaho National Laboratory] (ORCID:0000000236326884)",
+        "Novotny, Vaclav [Idaho National Laboratory] (ORCID:0000000176887929)",
+        "Cho, So-Bin [Idaho National Laboratory] (ORCID:0000000292838577)",
+        "Shigrekar, Amey [Idaho National Laboratory]",
+        "Otani, Courtney [Idaho National Laboratory] (ORCID:0000000204125818)",
+        "Toman, Jakub [Idaho National Laboratory]",
+        "Mikkelson, Daniel Mark [Idaho National Laboratory]"
+    ],
+    "subjects": [
+        "22 - GENERAL STUDIES OF NUCLEAR REACTORS",
+        "42 - ENGINEERING",
+        "32 - ENERGY CONSERVATION, CONSUMPTION, AND UTILIZATION",
+        "Thermal energy storage",
+        "Flexible nuclear",
+        "load-following",
+        "Flexible generation",
+        "Advanced nuclear",
+        "Dynamic analysis",
+        "Technoeconomic optimization",
+        "Dispatch optimization",
+        "Electricity prices"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "DE-AC07-05ID14517",
+    "sponsor_orgs": [
+        "58",
+        "USDOE Office of Nuclear Energy (NE)"
+    ],
+    "research_orgs": [
+        "Idaho National Laboratory (INL), Idaho Falls, ID (United States)"
+    ],
+    "other_identifiers": [
+        "Journal ID: 0196-8904"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2453861"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2453861"
+        }
+    ]
+}

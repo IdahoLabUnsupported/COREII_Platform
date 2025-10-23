@@ -1,0 +1,45 @@
+{
+   "osti_id":"2462869",
+   "title":"Examining infrared thermography based approaches to rapid fatigue characterization of additively manufactured compression molded short fiber thermoplastic composites",
+   "doi":"https://doi.org/10.1016/j.compstruct.2024.118610",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"A novel additive manufacturing (AM) methodology combined with a compression molding (CM) process has been developed to optimize the microstructure of short fiber thermoplastic composites (SFTs)with higher fiber alignment and lower porosity, yielding superior stiffness, strength, and structural integrity. The current work examines the efficacy of the ‘passive’ infrared thermography (IRT) techniques for rapid fatigue characterization of SFTs that use the surface temperature evolution during cyclic loading due to self-heating as a fatigue indicator. A comparison of fatigue limits obtained from traditional stress-life (SN) (≈53.1%σuts) and IRT (≈54.1%σuts) shows a close match. However, the SN curve required 18 specimens and two weeks of continuous cyclic testing, while IRT used three specimens with 5 hours of testing. Thus, the IRT approach provides an accelerated testing framework for rapidly estimating the fatigue limit. Additionally, existing phenomenological approaches to IRT fatigue characterization have been examined.",
+   "publication_date":"2025-01-01T00:00:00Z",
+   "entry_date":"2024-10-16T00:00:00Z",
+   "journal_name":"Composite Structures",
+   "journal_volume":"351",
+   "format":"Medium: ED; Size: 118610-",
+   "authors":[
+      "Pathak, Pharindra [Auburn University]",
+      "Gururaja, Suhasini [Auburn University]",
+      "Kumar, Vipin [ORNL] (ORCID:0000000295807098)",
+      "Nuttall, David [ORNL]",
+      "Mahmoudi, Ali [Louisiana State University]",
+      "Khonsari, Michael [Louisiana State University]",
+      "Vaidya, Uday [University of Tennessee, Knoxville (UTK)]"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE)"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2462869"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2462869"
+      }
+   ]
+}

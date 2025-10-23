@@ -1,0 +1,17 @@
+.drag-drop-list{
+    display: flex;
+    flex-direction: column;
+}
+.drag-drop-list-left{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: solid 2px #0000004f;
+}
+.drag-drop-list-right{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.drag-drop-item{
+    display: flex;
+    
+}

@@ -1,0 +1,44 @@
+{
+   "osti_id":"2446682",
+   "title":"In-situ HRTEM observations of intermediate phase transformation in lattice reorientation in HCP rhenium",
+   "report_number":"PNNL-SA-162856",
+   "doi":"https://doi.org/10.1016/j.jmst.2024.04.023",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"In-situ high-resolution transmission electron microscopy (HRTEM) is performed to investigate the deformation behavior of hexagonal close-packed rhenium (Re) which is compressed along the 11¯00 direction. Atomistic simulations are also conducted to better understand the deformation mechanisms. Two types of lattice reorientation are observed during compression. The first type involves the reorientation of one lattice by ~90° around 112¯0, which is accomplished by the formation of an intermediate face-center-cubic (FCC) phase at the interface. This transformation sequence can be described as {11¯00}matrix ? {111}FCC ? (0001)twin. In the second type, a new grain is formed but does not satisfy any known twin relationship with the matrix, and an intermediate FCC phase is also formed. The transformation sequence can be described as {11¯01}matrix ? {111}FCC ? (0001)grain. Mechanisms responsible for the observed lattice reorientation and sequential phase transitions are analyzed by conducting lattice correspondence analyses on the simulation results. Strain accommodation is also analyzed to explain the mechanisms for lattice reorientation and the intermediate phase transformations. The results provide new insight into the deformation behavior of HCP metals",
+   "publication_date":"2025-01-20T00:00:00Z",
+   "entry_date":"2024-09-20T00:00:00Z",
+   "journal_name":"Journal of Materials Science & Technology",
+   "journal_issue":"1",
+   "journal_volume":"206",
+   "format":"Medium: ED; Size: 15-25",
+   "authors":[
+      "He, Yang [University of Pittsburgh]",
+      "Fang, Zhengwu [University of Pittsburgh]",
+      "Li, Bin [University of Nevada - Reno]",
+      "Wang, Chongmin [BATTELLE (PACIFIC NW LAB)] (ORCID:0000000333270958)",
+      "Mao, Scott X. [University of Pittsburgh]"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-76RL01830",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2446682"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2446682"
+      }
+   ]
+}

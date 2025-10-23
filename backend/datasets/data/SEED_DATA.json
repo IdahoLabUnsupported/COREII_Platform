@@ -1,0 +1,58 @@
+{
+    "source": [
+        {
+            "title": "OSTI Research",
+            "description": "The Department of Energy (DOE) Office of Scientific and Technical Information (OSTI), a unit of the Office of Science, fulfills agency-wide responsibilities to collect, preserve, and disseminate both unclassified and classified scientific and technical information (STI) emanating from DOE-funded research and development (R&D) activities at DOE national laboratories and facilities and at universities and other institutions nationwide.",
+            "uri": "https://www.osti.gov/",
+            "abbreviation": "OSTI"
+        },
+        {
+            "title": "EIA Open Data",
+            "description": "The U.S. Energy Information Administration (EIA) collects, analyzes, and disseminates independent and impartial energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment.",
+            "uri": "https://www.eia.gov/",
+            "abbreviation": "EIA"
+        },
+        {
+            "title": "ARC Advisory Market Data",
+            "description": "Market data covering industrial automation systems, including compressor monitoring and control, distributed control systems (DCS), human-machine interfaces (HMI), programmable logic controllers (PLCs), and SCADA systems. The data provides insights into market shares and trends for key technologies and vendors. Provided by ARC Advisory Group.",
+            "uri": "https://www.arcweb.com/",
+            "abbreviation": "ARC"
+        },
+        {
+            "title": "CISA CSAF OT Advisories",
+            "description": "Provides machine-readable security advisories using the OASIS Common Security Advisory Framework (CSAF) Version 2.0 standard for CISA's Information Technology (IT) and Operational Technology (OT) advisories.",
+            "uri": "https://github.com/cisagov/CSAF/tree/develop/csaf_files/OT/white",
+            "abbreviation": "CISA"
+        },
+        {
+            "title": "CyOTE Data",
+            "description": "The Department of Energy's Cybersecurity, Energy Security, and Emergency Response Office (CESER) has partnered with Idaho National Laboratory (INL) and energy companies to develop CyOTE. This research initiative addresses cybersecurity threats against operational technology (OT) networks by sharing intelligence about adversarial tactics and techniques with the energy sector. CyOTE improves thessector's ability to detect anomalous behavior that indicates potential malicious cyber activity in OT networks.",
+            "uri": "https://cyote.inl.gov/",
+            "abbreviation": "CYOTE"
+        },
+        {
+            "title": "Known Exploited Vulnerabilities Catalog",
+            "description": "CISA maintains the Known Exploited Vulnerabilities (KEV) Catalog as an authoritative source of vulnerabilities that have been exploited in the wild. Organizations should use the KEV catalog as an input to their vulnerability management prioritization framework.",
+            "uri": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog/",
+            "abbreviation": "KEV"
+        },
+        {
+            "title": "NIST Special Publications",
+            "description": "NIST Special Publications outline comprehensive, layered approaches to securing and sustaining modern information and operational technology systems. This information provides guidance in safeguarding operational technology and industrial control systems, cataloging security controls, outlining risk management frameworks, and offering cyber-resilient engineering recommendations.",
+            "uri": "https://csrc.nist.gov/publications/sp",
+            "abbreviation": "NIST"
+        },
+        {
+            "title": "MITRE ATT&CK Matrices",
+            "description": "MITRE ATT&CK is a public knowledge base that describes patterns in the behavior of real-world adversaries. It is organized into matrices where the columns represent tactics (the attacker's technical goals, such as Initial Access, Execution or Impact) and the cells are techniques and sub-techniques that can achieve those goals. The matrix format lets defenders understand the full attack lifecycle and identify behaviors for effective detection and mitigation.",
+            "uri": "https://github.com/mitre-attack/attack-stix-data/",
+            "abbreviation": "MITRE"
+        },
+        {
+            "title": "EERE Funding Opportunities",
+            "description": "The Office of Energy Efficiency and Renewable Energy (EERE) invests in research and development to lower the cost of energy technologies, protect the private sector from financial risk, and help America build and sustain an integrated energy system that is reliable, resilient, and secure. This is a set of the open EERE funding opportunity announcements (FOA)s.",
+            "uri": "https://eere-exchange.energy.gov/",
+            "abbreviation": "EERE FOAS"
+        }
+    ]
+}

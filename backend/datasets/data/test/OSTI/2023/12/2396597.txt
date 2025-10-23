@@ -1,0 +1,59 @@
+{
+    "osti_id": "2396597",
+    "title": "Thermal conductivity suppression in uranium-doped thorium dioxide due to phonon-spin interactions",
+    "report_number": "INL/JOU-23-70846-Rev000",
+    "doi": "https://doi.org/10.1016/j.jmat.2023.11.007",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "In this work, impact of low level of uranium (U) atom substitution on thermal conductivity of thorium dioxide (ThO<sub>2</sub>) is investigated. ThO<sub>2</sub> is an electronic insulator with a wide optical band-gap and no unpaired electrons whose thermal transport is governed by phonons. U-substitution introduces unpaired f-electrons resulting in paramagnetic behavior of U-ThO<sub>2</sub> at room temperature, which significantly suppresses its thermal conductivity. A single crystal of U-ThO<sub>2</sub> with graded composition of U is grown using a hydrothermal synthesis method, and thermal conductivity measurements are performed in regions with uniform composition of U at levels of 0%, 6%, 9% and 16%. Measured thermal conductivity profiles over 77\u2013300 K temperature range are analyzed using an analytical expression for phonon-mediated thermal transport based on Klemens-Callaway model. Temperature dependent thermal conductivity is found to deviate significantly from the Rayleigh scattering trend expected for a simple substitutional point defect with a small perturbation to mass and interatomic forces. With the resonant scattering term, observed large suppression of thermal conductivity at low temperatures can be closely reproduced. Additionally, the extracted phonon-spin coupling constants imply a nonlinear relation of phonon-spin interaction intensity with respect to U doping percentage. Our study reveals how phonon-spin scattering contributed by unpaired f-electrons in U atoms influences thermal transport in the U-ThO<sub>2</sub> system.",
+    "publication_date": "2024-12-05T00:00:00Z",
+    "entry_date": "2024-07-12T00:00:00Z",
+    "publisher": "Chinese Ceramic Society",
+    "journal_name": "Journal of Materiomics",
+    "journal_issue": "3",
+    "journal_volume": "10",
+    "format": "Medium: ED; Size: p. 709-715",
+    "authors": [
+        "Hua, Zilong [Idaho National Laboratory (INL), Idaho Falls, ID (United States)] (ORCID:0000000229423344)",
+        "Adnan, Saqeeb [The Ohio State Univ., Columbus, OH (United States)] (ORCID:0000000302465947)",
+        "Khanolkar, Amey R. [Idaho National Laboratory (INL), Idaho Falls, ID (United States)] (ORCID:0000000308165507)",
+        "Rickert, Karl [KBR, Dayton, OH (United States)]",
+        "Turner, David B. [Azimuth Corporation, Fairborn, OH (United States)]",
+        "Prusnick, Timothy A. [KBR, Dayton, OH (United States)] (ORCID:0009000209659533)",
+        "Mann, J. Matthew [Air Force Research Laboratory (AFRL), Wright-Patterson AFB, OH (United States)]",
+        "Hurley, David H. [Idaho National Laboratory (INL), Idaho Falls, ID (United States)]",
+        "Khafizov, Marat [The Ohio State Univ., Columbus, OH (United States)] (ORCID:0000000181713528)",
+        "Dennett, Cody A. [Idaho National Laboratory (INL), Idaho Falls, ID (United States); Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)] (ORCID:0000000329899550)"
+    ],
+    "subjects": [
+        "36 MATERIALS SCIENCE",
+        "75 CONDENSED MATTER PHYSICS, SUPERCONDUCTIVITY AND SUPERFLUIDITY",
+        "Thermal conductivity",
+        "U-doped ThO2",
+        "Resonant phonon scattering"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC07-05ID14517; FA807518D0015",
+    "sponsor_orgs": [
+        "USDOE Office of Science (SC), Basic Energy Sciences (BES)",
+        "US Air Force Office of Scientific Research (AFOSR)"
+    ],
+    "research_orgs": [
+        "Idaho National Laboratory (INL), Idaho Falls, ID (United States)"
+    ],
+    "journal_issn": "ISSN 2352-8478",
+    "other_identifiers": [
+        "Journal ID: ISSN 2352-8478"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2396597"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2396597"
+        }
+    ]
+}

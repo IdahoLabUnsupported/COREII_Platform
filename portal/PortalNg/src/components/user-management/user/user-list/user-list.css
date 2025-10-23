@@ -1,0 +1,73 @@
+.user-list{
+    height: 100%;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 80em;
+}
+
+.user-list-title {
+    color: rgb(55, 65, 81);
+}
+
+.user-list-body{    
+    border-radius: var(--rounded-box, 1rem);
+    background-color: rgb(55, 65, 81);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    height:100%;
+}
+
+.user-list-description{
+    display: flex;
+    max-width: 33%;
+    margin-bottom: 1em;
+}
+.user-list-table{
+    border: solid 1px #ffffff30;
+}
+.user-list-table div{
+display: flex;
+}
+.user-table-row{
+    /* border: solid 1px green; */
+    display: flex;
+    flex-direction: row;
+    padding: .5em 0;
+}
+
+.user-table-headers{
+    font-weight: 700;
+}
+.user-table-row-selectable:nth-child(odd){
+    background-color: #ffffff1a;
+}
+.user-table-row-selectable:nth-child(even){
+    background-color: #ffffff10;    
+}
+.user-table-row-selectable:hover{
+    border: solid 1px #ffffff50;
+    background-color: #ffffff30;    
+}
+
+.user-table-row div{
+    display: flex;
+}
+
+.user-row-name{
+    flex-basis: 25%;
+}
+.user-row-email{
+    flex-basis: 35%;
+}
+.user-row-date-created{
+    width: 8.5em;
+}
+.user-row-role-count{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.user-row-name{
+    margin-left: 1em;
+}

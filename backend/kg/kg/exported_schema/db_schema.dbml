@@ -1,0 +1,66 @@
+Table source {
+  id varchar
+  added_at timestamp
+  title text
+  description text
+  abbreviation text
+  uri text
+}
+
+Table report {
+  id varchar
+  added_at timestamp
+  embedding vector(384)
+  source_id varchar
+  identifier text
+  title text
+  report_type text
+  uri text
+  report_metadata jsonb
+  n_excerpts integer
+  description text
+  sha256hash varchar
+  version integer
+  published_at date
+}
+
+Table excerpt {
+  id varchar
+  added_at timestamp
+  embedding vector(384)
+  report_id varchar
+  source_id varchar
+  title text
+  content_type text
+  json_content jsonb
+  description text
+  excerpt_index integer
+  text_content text
+}
+
+Table uentity {
+  id varchar
+  added_at timestamp
+  embedding vector(384)
+  title text
+  entity_type text
+}
+
+Table entity {
+  id varchar
+  added_at timestamp
+  uentity_id varchar
+  report_id varchar
+  source_id varchar
+  excerpt_id varchar
+  title text
+  entity_type text
+}
+
+Ref: report.source_id > source.id
+Ref: excerpt.report_id > report.id
+Ref: excerpt.source_id > source.id
+Ref: entity.excerpt_id > excerpt.id
+Ref: entity.report_id > report.id
+Ref: entity.source_id > source.id
+Ref: entity.uentity_id > uentity.id

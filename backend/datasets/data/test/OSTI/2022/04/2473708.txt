@@ -1,0 +1,43 @@
+{
+   "osti_id":"2473708",
+   "title":"A Finite Difference Informed Random Walk Solver for Simulating Radiation Defect Evolution in Polycrystalline Structures with Strongly Inhomogeneous Diffusivity",
+   "report_number":"PNNL-SA-198772",
+   "doi":"https://doi.org/10.1016/j.commatsci.2024.113371",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"Diffusivity of species and defects on grain boundaries is usually several orders of magnitude larger than that inside grains. Such strongly inhomogeneous diffusivity requires prohibitively high computational demands for modeling microstructural evolution. This paper presents a highly-efficient numerical solver, combining the Finite Difference method and Random Walk model, designed for accurately modeling strongly inhomogeneous diffusion within polycrystalline structures. The proposed solver, termed Finite Difference informed Random Walk (FDiRW), integrates a customized Finite Difference (cFD) scheme tailored for fast diffusion along thin grain boundaries represented by a single-layer of nodes. Numerical experiments demonstrate that the FDiRW solver achieves an impressive efficiency gain of 1560x compared to traditional Finite Difference methods while maintaining accuracy, making it feasible for personal computer machines to handle diffusional systems with strongly inhomogeneous diffusivity across static polycrystalline microstructures. The model has been successfully applied to simulate radiation defect evolution, showcasing its scalability to engineering scales in both length and time dimensions.",
+   "publication_date":"2025-01-31T00:00:00Z",
+   "entry_date":"2024-10-28T00:00:00Z",
+   "journal_name":"Computational Materials Science",
+   "journal_volume":"246",
+   "format":"Medium: ED; Size: 113371",
+   "authors":[
+      "Mao, Zirui [BATTELLE (PACIFIC NW LAB)]",
+      "Li, Yulan [BATTELLE (PACIFIC NW LAB)]",
+      "Park, Gyuchel [Purdue University]",
+      "Beeler, Benjamin [BATTELLE ENERGY ALLIANCE, LLC]",
+      "Hu, Shenyang [BATTELLE (PACIFIC NW LAB)] (ORCID:0000000271873082)"
+   ],
+   "subjects":[
+      "strongly inhomogeneous diffusivity, grain boundary diffusion, random walk model, radiation defect, polycrystalline structure"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-76RL01830",
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2473708"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2473708"
+      }
+   ]
+}

@@ -1,0 +1,44 @@
+{
+   "osti_id":"2472720",
+   "title":"Californium-252 production at the High Flux Isotope Reactor − I: Validation study using campaign data",
+   "doi":"https://doi.org/10.1016/j.anucene.2024.110960",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"This paper presents a series of 252Cf production validation and code-to-code comparison studies performed based on data from the production campaigns at the High Flux Isotope Reactor (HFIR). These studies support efforts to convert HFIR from using highly enriched uranium (HEU) fuel to low-enriched uranium (LEU) fuel. HFIR must maintain its world-class performance and missions following this conversion, and because 252Cf is a vital neutron-emitting radioisotope used for a variety of high-impact applications (e.g., reactor startup, cancer treatment), the ability to efficiently produce 252Cf must be preserved. In this work, the HFIRCON, Shift, ORIGEN, and TCOMP codes were deployed, and several sets of data libraries were investigated to better understand the calculation codes and the data biases. As-loaded target composition data, as-run irradiation history data, and post-irradiation measurements from recent multi-cycle irradiation campaigns of the HEU core were used to validate and determine methodology biases. The findings demonstrated a good agreement, with results falling within 3 standard deviations of measurements. This paper lays the ground work for the second paper, which evaluates and compares 252Cf production and safety metrics with the HEU core and a proposed LEU core.",
+   "publication_date":"2025-02-01T00:00:00Z",
+   "entry_date":"2024-10-23T00:00:00Z",
+   "journal_name":"Annals of Nuclear Energy",
+   "journal_volume":"211",
+   "format":"Medium: ED; Size: 110960-",
+   "authors":[
+      "Hartanto, Donny [ORNL] (ORCID:0000000295541111)",
+      "Chandler, David [ORNL] (ORCID:0000000164899439)",
+      "Green, Hailey [ORNL]",
+      "Bae, Jin Whan [ORNL] (ORCID:0000000326548907)",
+      "Burg, Kevin [ORNL] (ORCID:0009000612453455)",
+      "Robert, Yves [ORNL] (ORCID:0000000221673728)",
+      "Sizemore, Carol [ORNL] (ORCID:0009000770008293)"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2472720"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2472720"
+      }
+   ]
+}

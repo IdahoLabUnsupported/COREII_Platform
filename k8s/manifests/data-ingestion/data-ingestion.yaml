@@ -1,0 +1,86 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: data-ingestion
+spec:
+  schedule: "0 0 * * *"
+  timeZone: "America/New_York"
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      template:
+        spec:
+          containers:
+            - image: 869935092417.dkr.ecr.us-west-1.amazonaws.com/inl-image-registry/data_ingestion:latest
+              imagePullPolicy: Always
+              name: data-ingestion
+              env:
+                - name: DB_NAME
+                  valueFrom:
+                    secretKeyRef:
+                      name: hippo-pguser-rhino
+                      key: dbname
+                - name: DB_PORT
+                  valueFrom:
+                    secretKeyRef:
+                      name: hippo-pguser-rhino
+                      key: port
+                - name: DB_HOST
+                  valueFrom:
+                    secretKeyRef:
+                      name: hippo-pguser-rhino
+                      key: host
+                - name: DB_USER
+                  valueFrom:
+                    secretKeyRef:
+                      name: hippo-pguser-rhino
+                      key: user
+                - name: DB_PASSWORD
+                  valueFrom:
+                    secretKeyRef:
+                      name: hippo-pguser-rhino
+                      key: password
+                - name: MINIO_ACCESS_KEY
+                  valueFrom:
+                    secretKeyRef:
+                      name: minio-keys
+                      key: access_key
+                - name: MINIO_SECRET_KEY
+                  valueFrom:
+                    secretKeyRef:
+                      name: minio-keys
+                      key: secret_key
+                - name: VECTOR_LENGTH
+                  value: "1024"
+              envFrom:
+                - configMapRef:
+                    name: data-ingestion-cm
+          restartPolicy: Never
+          imagePullSecrets:
+            - name: inl-registry-creds
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: data-ingestion-cm
+data:
+  RAW_DATA_DIRECTORY_ARC: /code/datasets/ARC
+  RAW_DATA_DIRECTORY_EIA: /code/datasets/EIA
+  RAW_DATA_DIRECTORY_OSTI: /code/datasets/OSTI
+  RAW_DATA_PATH_CYOTE_TABULAR: /code/datasets/Cyote/Cyote.csv
+  RAW_DATA_DIRECTORY_CYOTE_REPORTS: /code/datasets/Cyote
+  RAW_DATA_PATH_KEV: /code/datasets/KEV/known_exploited_vulnerabilities.json
+  RAW_DATA_DIRECTORY_CISA: /code/cisa-clone
+  RAW_DATA_DIRECTORY_MITRE: /code/datasets/MITRE
+  RAW_DATA_DIRECTORY_NIST: /code/datasets/NIST
+  RAW_DATA_PATH_EERE_FOAS: /code/datasets/EERE_FOAS/eere_data.json
+  SEED_DATA_PATH: /code/datasets/SEED_DATA.json
+  CISA_GIT_DOWNLOAD_URL: https://github.com/cisagov/CSAF/archive/refs/heads/develop.zip
+  CISA_BASE_GIT_URL: https://raw.githubusercontent.com/cisagov/CSAF/refs/heads/develop/csaf_files/OT/white/
+  CISA_PATH: CSAF-develop
+  MINIO_ENDPOINT: minio.minio.svc.cluster.local
+  BUCKET_NAME: datasets
+  ML_API_URL: http://ml-api.api.svc.cluster.local/

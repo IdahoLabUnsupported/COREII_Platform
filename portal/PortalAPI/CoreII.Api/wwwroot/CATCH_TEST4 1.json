@@ -1,0 +1,424 @@
+{
+  "type": "bundle",
+  "id": "bundle--f492fffa-9023-46c1-a086-d45db992fb13",
+  "objects": [
+    {
+      "defanged": false,
+      "dst_port": 44818,
+      "dst_ref": "ipv4-addr--3c267f4d-92f6-5bea-a3ab-8866c7c24241",
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "inet:flow",
+            "e856d4cf8138c974179340537932faca"
+          ]
+        }
+      },
+      "id": "network-traffic--9c851ffb-048c-5932-ae46-cf5dece99a41",
+      "is_active": false,
+      "protocols": [
+        "rdp",
+        "rdp"
+      ],
+      "spec_version": "2.1",
+      "src_port": 45010,
+      "src_ref": "ipv4-addr--47242d4d-1ad6-5ebc-ae8a-7026ab4ff95a",
+      "type": "network-traffic"
+    },
+    {
+      "defanged": false,
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "inet:ipv4",
+            172184470
+          ]
+        }
+      },
+      "id": "ipv4-addr--47242d4d-1ad6-5ebc-ae8a-7026ab4ff95a",
+      "spec_version": "2.1",
+      "type": "ipv4-addr",
+      "value": "10.67.83.150"
+    },
+    {
+      "defanged": false,
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "inet:ipv4",
+            172184409
+          ]
+        }
+      },
+      "id": "ipv4-addr--3c267f4d-92f6-5bea-a3ab-8866c7c24241",
+      "spec_version": "2.1",
+      "type": "ipv4-addr",
+      "value": "10.67.83.89"
+    },
+    {
+      "defanged": false,
+      "dst_port": 44818,
+      "dst_ref": "ipv4-addr--3c267f4d-92f6-5bea-a3ab-8866c7c24241",
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "inet:flow",
+            "33074826796ca366179340461257f7bd"
+          ]
+        }
+      },
+      "id": "network-traffic--823b1034-3557-5c9b-a077-9355789ee8df",
+      "is_active": false,
+      "protocols": [
+        "rdp",
+        "rdp"
+      ],
+      "spec_version": "2.1",
+      "src_port": 52444,
+      "src_ref": "ipv4-addr--47242d4d-1ad6-5ebc-ae8a-7026ab4ff95a",
+      "type": "network-traffic"
+    },
+    {
+      "id": "observed-data--e3cf39bd-d921-44d9-952a-1e36ca39f7a8",
+      "type": "observed-data",
+      "first_observed": "2023-10-31T17:58:22.794Z",
+      "last_observed": "2023-10-31T17:58:22.794Z",
+      "number_observed": 1,
+      "object_refs": [
+        "network-traffic--9c851ffb-048c-5932-ae46-cf5dece99a41",
+        "ipv4-addr--47242d4d-1ad6-5ebc-ae8a-7026ab4ff95a",
+        "ipv4-addr--3c267f4d-92f6-5bea-a3ab-8866c7c24241",
+        "network-traffic--823b1034-3557-5c9b-a077-9355789ee8df",
+        "attack-pattern--e6c31185-8040-4267-83d3-b217b8a92f07"
+      ],
+      "spec_version": "2.1",
+      "created": "2023-10-31T17:58:22.794Z",
+      "modified": "2023-10-31T17:58:22.794Z",
+      "revoked": false
+    },
+    {
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "description": "Adversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend in with normal network activity, to avoid more detailed inspection. They may use the protocol associated with the port, or a completely different protocol. They may use commonly open ports, such as the examples provided below. \n \n * TCP:80 (HTTP) \n * TCP:443 (HTTPS) \n * TCP/UDP:53 (DNS) \n * TCP:1024-4999 (OPC on XP/Win2k3) \n * TCP:49152-65535 (OPC on Vista and later) \n * TCP:23 (TELNET) \n * UDP:161 (SNMP) \n * TCP:502 (MODBUS) \n * TCP:102 (S7comm/ISO-TSAP) \n * TCP:20000 (DNP3) \n * TCP:44818 (Ethernet/IP)",
+      "extensions": {
+        "extension-definition--a12ea154-dc18-48d0-b786-7cfb3884b2b8": {
+          "extension_type": "toplevel-property-extension"
+        }
+      },
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0885",
+          "external_id": "T0885"
+        }
+      ],
+      "id": "attack-pattern--e6c31185-8040-4267-83d3-b217b8a92f07",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "modified": "2023-03-09T18:38:51.471Z",
+      "name": "Commonly Used Port",
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "attack-pattern",
+      "x_mitre_attack_spec_version": "2.1.0",
+      "x_mitre_contributors": [
+        "Matan Dobrushin - Otorio"
+      ],
+      "x_mitre_data_sources": [
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
+      ],
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Safety Instrumented System/Protection Relay",
+        "Field Controller/RTU/PLC/IED",
+        "Human-Machine Interface",
+        "Control Server",
+        "Engineering Workstation"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    {
+      "defanged": false,
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "file:path",
+            "/home/cyberstrike-cyote/plc_project_files"
+          ]
+        }
+      },
+      "id": "directory--b3e83009-af80-595d-8ee5-0abd65f788e1",
+      "path": "/home/cyberstrike-cyote/plc_project_files",
+      "spec_version": "2.1",
+      "type": "directory"
+    },
+    {
+      "defanged": false,
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "file:path",
+            "/home/cyberstrike-cyote/plc_project_files/legitimateprojectfile.py"
+          ]
+        }
+      },
+      "id": "directory--2fd38bc4-f2ef-5eb9-ab0a-d242e87a0e58",
+      "path": "/home/cyberstrike-cyote/plc_project_files/legitimateprojectfile.py",
+      "spec_version": "2.1",
+      "type": "directory"
+    },
+    {
+      "created": "2023-10-31T17:58:22.859Z",
+      "first_observed": "2023-10-31T17:58:22.859Z",
+      "id": "observed-data--5e72688c-e4b0-4997-8228-d63499a50c8f",
+      "last_observed": "2023-10-31T17:58:22.859Z",
+      "modified": "2023-10-31T17:58:22.859Z",
+      "number_observed": 1,
+      "object_refs": [
+        "directory--b3e83009-af80-595d-8ee5-0abd65f788e1",
+        "directory--2fd38bc4-f2ef-5eb9-ab0a-d242e87a0e58",
+        "attack-pattern--ba203963-3182-41ac-af14-7e7ebc83cd61"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "observed-data"
+    },
+    {
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "description": "Adversaries may use masquerading to disguise a malicious application or executable as another file, to avoid operator and engineer suspicion. Possible disguises of these masquerading files can include commonly found programs, expected vendor executables and configuration files, and other commonplace application and naming conventions. By impersonating expected and vendor-relevant files and applications, operators and engineers may not notice the presence of the underlying malicious content and possibly end up running those masquerading as legitimate functions. \n\nApplications and other files commonly found on Windows systems or in engineering workstations have been impersonated before. This can be as simple as renaming a file to effectively disguise it in the ICS environment.",
+      "extensions": {
+        "extension-definition--a12ea154-dc18-48d0-b786-7cfb3884b2b8": {
+          "extension_type": "toplevel-property-extension"
+        }
+      },
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0849",
+          "external_id": "T0849"
+        }
+      ],
+      "id": "attack-pattern--ba203963-3182-41ac-af14-7e7ebc83cd61",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "evasion"
+        }
+      ],
+      "modified": "2023-05-09T14:00:00.188Z",
+      "name": "Masquerading",
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "attack-pattern",
+      "x_mitre_attack_spec_version": "2.1.0",
+      "x_mitre_data_sources": [
+        "Scheduled Job: Scheduled Job Creation",
+        "Service: Service Creation",
+        "Command: Command Execution",
+        "File: File Modification",
+        "Service: Service Modification",
+        "Process: Process Metadata",
+        "File: File Metadata",
+        "Scheduled Job: Scheduled Job Modification"
+      ],
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Human-Machine Interface",
+        "Control Server"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    {
+      "created": "2023-10-31T17:58:22.868Z",
+      "first_observed": "2023-10-31T17:58:22.868Z",
+      "id": "observed-data--2ce65139-7d1f-4ad9-87d5-d6fdffd99f09",
+      "last_observed": "2023-10-31T17:58:22.868Z",
+      "modified": "2023-10-31T17:58:22.868Z",
+      "number_observed": 1,
+      "object_refs": [
+        "directory--b3e83009-af80-595d-8ee5-0abd65f788e1",
+        "directory--2fd38bc4-f2ef-5eb9-ab0a-d242e87a0e58",
+        "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "observed-data"
+    },
+    {
+      "created": "2020-05-21T17:43:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "description": "Adversaries may attempt to infect project files with malicious code. These project files may consist of objects, program organization units, variables such as tags, documentation, and other configurations needed for PLC programs to function. (Citation: Beckhoff) Using built in functions of the engineering software, adversaries may be able to download an infected program to a PLC in the operating environment enabling further [Execution](https://attack.mitre.org/tactics/TA0104) and [Persistence](https://attack.mitre.org/tactics/TA0110) techniques. (Citation: PLCdev) \n\nAdversaries may export their own code into project files with conditions to execute at specific intervals. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011) Malicious programs allow adversaries control of all aspects of the process enabled by the PLC. Once the project file is downloaded to a PLC the workstation device may be disconnected with the infected project file still executing. (Citation: PLCdev)",
+      "extensions": {
+        "extension-definition--a12ea154-dc18-48d0-b786-7cfb3884b2b8": {
+          "extension_type": "toplevel-property-extension"
+        }
+      },
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0873",
+          "external_id": "T0873"
+        },
+        {
+          "source_name": "Beckhoff",
+          "url": "https://infosys.beckhoff.com/english.php?content=../content/1033/tc3_sourcecontrol/18014398915785483.html&id="
+        },
+        {
+          "source_name": "Nicolas Falliere, Liam O Murchu, Eric Chien February 2011",
+          "url": "https://www.wired.com/images_blogs/threatlevel/2011/02/Symantec-Stuxnet-Update-Feb-2011.pdf"
+        },
+        {
+          "source_name": "PLCdev",
+          "url": "http://www.plcdev.com/book/export/html/373"
+        }
+      ],
+      "id": "attack-pattern--e72425f8-9ae6-41d3-bfdb-e1b865e60722",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "persistence"
+        }
+      ],
+      "modified": "2023-05-08T18:58:24.092Z",
+      "name": "Project File Infection",
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "attack-pattern",
+      "x_mitre_attack_spec_version": "3.1.0",
+      "x_mitre_data_sources": [
+        "File: File Modification"
+      ],
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Engineering Workstation",
+        "Human-Machine Interface"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "command_line": "nmap -A -p- 10.67.83.150",
+      "created_time": "2023-10-31T17:08:20.982Z",
+      "defanged": false,
+      "extensions": {
+        "extension-definition--bdb6d88f-8c26-4d0b-b218-58925aaa5be0": {
+          "extension_type": "property-extension",
+          "synapse_ndef": [
+            "it:exec:proc",
+            "b79e1e9cedcb9a9aa5d8635190371b58"
+          ]
+        }
+      },
+      "id": "process--1c7e4ecd-1271-5fed-a5fb-bea4e16c0b33",
+      "is_hidden": false,
+      "pid": 3595,
+      "spec_version": "2.1",
+      "type": "process"
+    },
+    {
+      "created": "2023-10-31T17:58:23.815Z",
+      "first_observed": "2023-10-31T17:58:23.815Z",
+      "id": "observed-data--9e401711-4cb2-4077-aea1-bf6b1a197544",
+      "last_observed": "2023-10-31T17:58:23.815Z",
+      "modified": "2023-10-31T17:58:23.815Z",
+      "number_observed": 1,
+      "object_refs": [
+        "attack-pattern--2fedbe69-581f-447d-8a78-32ee7db939a9",
+        "process--1c7e4ecd-1271-5fed-a5fb-bea4e16c0b33"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "observed-data"
+    },
+    {
+      "created": "2021-04-13T12:45:26.506Z",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "description": "An adversary may attempt to get detailed information about remote systems and their peripherals, such as make/model, role, and configuration. Adversaries may use information from Remote System Information Discovery to aid in targeting and shaping follow-on behaviors. For example, the system's operational role and model information can dictate whether it is a relevant target for the adversary's operational objectives. In addition, the system's configuration may be used to scope subsequent technique usage. \n\nRequests for system information are typically implemented using automation and management protocols and are often automatically requested by vendor software during normal operation. This information may be used to tailor management actions, such as program download and system or module firmware. An adversary may leverage this same information by issuing calls directly to the system's API.",
+      "extensions": {
+        "extension-definition--a12ea154-dc18-48d0-b786-7cfb3884b2b8": {
+          "extension_type": "toplevel-property-extension"
+        }
+      },
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T0888",
+          "external_id": "T0888"
+        }
+      ],
+      "id": "attack-pattern--2fedbe69-581f-447d-8a78-32ee7db939a9",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-ics-attack",
+          "phase_name": "discovery"
+        }
+      ],
+      "modified": "2023-05-09T14:00:00.188Z",
+      "name": "Remote System Information Discovery",
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "revoked": false,
+      "spec_version": "2.1",
+      "type": "attack-pattern",
+      "x_mitre_attack_spec_version": "3.1.0",
+      "x_mitre_data_sources": [
+        "File: File Access",
+        "Network Traffic: Network Traffic Content",
+        "Process: Process Creation",
+        "Network Traffic: Network Traffic Flow"
+      ],
+      "x_mitre_domains": [
+        "ics-attack"
+      ],
+      "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "x_mitre_platforms": [
+        "Field Controller/RTU/PLC/IED",
+        "Safety Instrumented System/Protection Relay"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge",
+    "visual_edge"
+  ]
+}

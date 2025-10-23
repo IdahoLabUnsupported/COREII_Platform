@@ -1,0 +1,43 @@
+{
+   "osti_id":"2472717",
+   "title":"Californium-252 production at the High Flux Isotope Reactor - II: Comparison between the highly enriched uranium and a proposed low-enriched uranium core",
+   "doi":"https://doi.org/10.1016/j.anucene.2024.110920",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"This is the second paper on a 252Cf production study performed in support of efforts to convert the High Flux Isotope Reactor (HFIR) from highly enriched uranium (HEU) to low-enriched uranium (LEU) fuel. The first paper primarily focuses on validating computational tools and nuclear data. This companion paper evaluates another critical aspect: the 252Cf production capability with a proposed LEU core. HFIR must maintain its world-class performance and missions following conversion and because 252Cf is a vital, multipurpose neutron-emitting radioisotope, the ability to efficiently produce 252Cf must be preserved. In this study, the HFIRCON transport and depletion tool, several nuclear data libraries, and Campaign 78 data were used to compute 252Cf production, sensitivity, and safety metrics. Results indicate the 252Cf production and production rates are slightly higher with a 95 MWth LEU core compared with those obtained with the 85 MWth HEU core. Additionally, the target peak fission rate densities, discharge cumulative fission densities, and heat deposition rates with the LEU core are within a few percent of those calculated with the HEU core. The findings suggest HFIR’s 252Cf production capability can be effectively maintained with an LEU core without adversely affecting the safety metrics.",
+   "publication_date":"2025-02-01T00:00:00Z",
+   "entry_date":"2024-10-23T00:00:00Z",
+   "journal_name":"Annals of Nuclear Energy",
+   "journal_volume":"211",
+   "format":"Medium: ED; Size: 110920-",
+   "authors":[
+      "Chandler, David [ORNL] (ORCID:0000000164899439)",
+      "Hartanto, Donny [ORNL] (ORCID:0000000295541111)",
+      "Bae, Jin Whan [ORNL] (ORCID:0000000326548907)",
+      "Burg, Kevin [ORNL] (ORCID:0009000612453455)",
+      "Robert, Yves [ORNL] (ORCID:0000000221673728)",
+      "Sizemore, Carol [ORNL] (ORCID:0009000770008293)"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2472717"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2472717"
+      }
+   ]
+}

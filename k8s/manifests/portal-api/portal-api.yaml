@@ -1,0 +1,96 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portal-api
+  labels:
+    app: portal-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portal-api
+  template:
+    metadata:
+      labels:
+        app: portal-api
+    spec:
+      containers:
+        - image: 869935092417.dkr.ecr.us-west-1.amazonaws.com/inl-image-registry/portalapi:latest
+          imagePullPolicy: Always
+          name: portal-api
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SQL_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: mssql-creds
+                  key: password
+            - name: SQL_API_URL
+              value: portal-db.sqlserver.svc.cluster.local
+            - name: SQL_API_PORT
+              value: "1433"
+            - name: LDAP_SERVER
+              valueFrom:
+                secretKeyRef:
+                  name: ldap-creds
+                  key: ldap-server
+            - name: MSA_ACCOUNT
+              valueFrom:
+                secretKeyRef:
+                  name: ldap-creds
+                  key: msa-account
+            - name: MSA_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: ldap-creds
+                  key: msa-password
+            - name: SEARCH_DN
+              valueFrom:
+                secretKeyRef:
+                  name: ldap-creds
+                  key: search-dn
+            - name: JWT_TOKEN_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: jwt
+                  key: jwt-secret
+      imagePullSecrets:
+        - name: inl-registry-creds-portal-api
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: portal-api
+spec:
+  selector:
+    app: portal-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: portal-api
+spec:
+  rules:
+    - host: portal-api.caiser.ornlkdi.org
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: portal-api
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - portal-api.caiser.ornlkdi.org
+      secretName: tls

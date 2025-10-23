@@ -1,0 +1,55 @@
+{
+  "Study": "This is Test Data in example-2",
+  "Description": "This is Test Data",
+  "Data": {
+    "Market Shares": [
+      {
+        "Study": "Year-End Market Share 2555",
+        "Segment": "Automotive",
+        "Category": "Electric Vehicles",
+        "Year": 2555,
+        "Company": "AutoDrive Inc.",
+        "Size": 28.3,
+        "Units": "Thousands"
+      }
+    ],
+    "Forecast": [
+      {
+        "Study": "Sample Data 1",
+        "Segment": "Automotive",
+        "Category": "Electric Vehicles",
+        "Year": 2012,
+        "Size": 2175.0,
+        "Units": "Thousands",
+        "Company": "EM LLC"
+      },
+      {
+        "Study": "Sample Data 2",
+        "Segment": "Automotive",
+        "Category": "Electric Vehicles",
+        "Year": 2011,
+        "Size": 1275.0,
+        "Units": "Thousands",
+        "Company": "EM LLC"
+      },
+      {
+        "Study": "Sample Data 12",
+        "Segment": "Car",
+        "Category": "Electric Vehicles",
+        "Year": 2010,
+        "Size": 175.0,
+        "Units": "Thousands",
+        "Company": "EM LLC"
+      },
+      {
+        "Study": "Sample Data 22",
+        "Segment": "Money",
+        "Category": "Electric Vehicles",
+        "Year": 2009,
+        "Size": 175.0,
+        "Units": "Thousands",
+        "Company": "EM LLC"
+      }
+    ]
+  }
+}

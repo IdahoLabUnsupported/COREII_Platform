@@ -1,0 +1,47 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+services:
+  web:
+    user: root
+    build:
+      context: PortalNg/
+    container_name: portalweb
+    image: 869935092417.dkr.ecr.us-west-1.amazonaws.com/inl-image-registry/portalweb:latest
+    restart: unless-stopped
+    platform: linux/amd64
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "4200:80"
+
+#   api:
+#     build:
+#       context: PortalAPI/
+#     container_name: portalapi
+#     platform: linux/amd64
+#     image: 869935092417.dkr.ecr.us-west-1.amazonaws.com/inl-image-registry/portalapi:latest
+#     restart: unless-stopped
+#     extra_hosts:
+#       - "host.docker.internal:host-gateway"
+#     ports:
+#       - "5000:8080"
+#   sqlserver:
+#     build:
+#       context: PortalSql/
+#     container_name: portalsql
+#     platform: linux/amd64
+#     hostname: mssql
+#     user: root
+#     image: 869935092417.dkr.ecr.us-west-1.amazonaws.com/inl-image-registry/portalsql:latest
+#     restart: unless-stopped
+#     environment:
+#       - ACCEPT_EULA=Y
+#       - MSSQL_SA_PASSWORD=dummy
+#     ports:
+#       - "5533:1433"
+#     volumes:
+#       - mssql_data:/var/opt/mssql
+#       - ./backups:/var/opt/mssql/backup
+
+# volumes:
+#   mssql_data:

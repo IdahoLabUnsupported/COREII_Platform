@@ -1,0 +1,64 @@
+{
+  "Study": "This is test data for example-1",
+  "Description": "This is Test Data",
+  "Data": {
+    "Market Shares": [
+      {
+        "Study": "This study is for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "Smartphones",
+        "Year": 2121,
+        "Company": "TechCorp",
+        "Size": 142.5,
+        "Units": "Millions"
+      },
+      {
+        "Study": "This study is for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "Lights",
+        "Year": 2122,
+        "Company": "TechCorp",
+        "Size": 1142.5,
+        "Units": "Millions"
+      },
+      {
+        "Study": "This study is for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "Smartphones",
+        "Year": 2122,
+        "Company": "TechCorp",
+        "Size": 1242.5,
+        "Units": "Millions"
+      },
+      {
+        "Study": "This study is for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "lightbulbs",
+        "Year": 2122,
+        "Company": "TechCorp",
+        "Size": 242.5,
+        "Units": "Millions"
+      },
+      {
+        "Study": "This study is for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "Cars",
+        "Year": 2122,
+        "Company": "TechCorp",
+        "Size": 142.5,
+        "Units": "Millions"
+      }
+    ],
+    "Forecast": [
+      {
+        "Study": "This study is also for Test Data",
+        "Segment": "Consumer Electronics",
+        "Category": "Smartphones",
+        "Year": 2055,
+        "Size": 60.75,
+        "Units": "Millions",
+        "Company": "CM Corp"
+      }
+    ]
+  }
+}

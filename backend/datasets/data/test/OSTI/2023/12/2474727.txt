@@ -1,0 +1,38 @@
+{
+    "osti_id": "2474727",
+    "title": "Understanding the heat generation mechanisms and the interplay between joule heat and entropy effects as a function of state of charge in lithium-ion batteries",
+    "doi": "https://doi.org/10.1016/j.jpowsour.2024.235504",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "UPDATE: The thermal performance of lithium-ion battery cells is critical for ensuring their safe and reliable operation across various applications. In this study, we employed an isothermal calorimetry method to investigate the heat generation of commercial 18650 lithium-ion battery fresh cells during charge and discharge at different current rates, ranging from 0.05C to 0.5C, and across various temperatures: 20 \u00b0C, 30 \u00b0C, 40 \u00b0C, and 50 \u00b0C. Our findings revealed a direct correlation between heat generation and current rates, indicating that higher current rates lead to increased heat generation within the cells. Conversely, we observed that heat generation remained relatively stable as the temperature rose, suggesting that temperature changes within this range may not significantly impact the heat generation of fresh cells during typical operations. Furthermore, our study explored irreversible heat generation, which depends on the applied current and overpotential, using the galvanostatic intermittent titration technique at 0.05C\u20130.5C and 30 \u00b0C. Additionally, electrochemical impedance spectroscopy was performed on the same cells during charge and discharge at 20 \u00b0C, 30 \u00b0C, and 40 \u00b0C to analyze cell impedance. Our results indicated a consistent dependence of impedance on the state of charge and depth of discharge, with a significant increase in impedance observed at the end of the discharge process.",
+    "publication_date": "2024-12-01T00:00:00Z",
+    "entry_date": "2024-10-30T00:00:00Z",
+    "journal_name": "Journal of Power Sources",
+    "journal_volume": "623",
+    "format": "Medium: ED; Size: 235504-",
+    "authors": [
+        "Maher, Kenza [Qatar Environment and Energy Research Institute (QEERI), Hamad Bin Khalifa University]",
+        "Amenitsch, Heinz [Graz University of Technology, Austria]",
+        "Amin, Ruhul [ORNL]"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC05-00OR22725",
+    "subjects": [],
+    "sponsor_orgs": [
+        "USDOE"
+    ],
+    "research_orgs": [
+        "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2474727"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2474727"
+        }
+    ]
+}

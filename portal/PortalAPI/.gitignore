@@ -1,0 +1,36 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+.DS_Store
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.dll
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/

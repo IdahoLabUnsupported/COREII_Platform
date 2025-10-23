@@ -1,0 +1,142 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+PortalAPI/CoreIIApi/bin/Debug/net7.0/CoreIIApi.dll
+/PortalAPI/CoreIIApi/bin/Debug/net7.0
+/PortalAPI/CoreIIApi/bin/Debug
+*.dll
+/PortalAPI/CoreIIApi/obj/Debug
+/PortalAPI/CoreIIApi/obj/Debug/net7.0
+/PortalAPI/CoreIIApi/bin/Debug/net7.0
+PortalAPI/CoreIIApi/obj/Debug/net7.0/CoreIIApi.csproj.FileListAbsolute.txt
+PortalAPI/CoreIIApi/obj/Debug/net7.0/CoreIIApi.pdb
+PortalAPI/CoreIIApi/obj/Debug/net7.0/staticwebassets.build.json
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+/electron-builds
+
+# dependencies
+/node_modules
+/node_modules/*
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+*.bak
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+.angulardoc.json
+
+
+S_62443-4-1.pdf
+
+# **/appsettings.json
+# **/appsettings.Development.json
+
+CoreIIApi-Debug.json
+CoreIIApi.dll
+CoreIIApi.pdb
+# Ignore DLL files
+*.dll
+
+# Ignore PDB files
+*.pdb
+
+# Additional common ignores for ASP.NET Core
+bin/
+obj/
+out/
+*.nupkg
+*.user
+*.swp
+*.swo
+*.sln.docstates
+*.suo
+*.cache
+*.csproj.user
+*ReSharper*
+*resharper
+**/bin/
+**/obj/
+**/out/
+PortalAPI/CoreIIApi/obj/Debug/net7.0/**
+PortalAPI/CoreIIApi/obj/Debug/*.
+/PortalAPI/.vs/CoreIIApi/xs
+*.swp
+*.*~
+project.lock.json
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.dll
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+PortalAPI/CoreIIApi/obj/Debug/net7.0/CoreIIApi.dll
+PortalAPI/CoreIIApi/obj/Debug/net7.0/ref/CoreIIApi.dll
+PortalAPI/CoreIIApi/obj/Debug/net7.0/refint/CoreIIApi.dll
+PortalAPI/.vs/CoreIIApi/xs/project-cache/CoreIIApi-Debug.json
+/PortalAPI/.vs/CoreIIApi/xs/project-cache
+/PortalAPI/.vs/CoreIIApi/xs
+PortalAPI/CoreIIApi/bin/Debug/net7.0/Azure.Core.dll
+PortalAPI/CoreIIApi/bin/Debug/net7.0/Azure.Identity.dll
+PortalAPI/CoreIIApi/bin/Debug/net7.0/Azure.Identity.dll
+/PortalAPI/CoreIIApi/bin/Debug/net7.0
+/PortalAPI/CoreIIApi/bin
+/PortalAPI/CoreIIApi/bin/Debug
+/PortalAPI/CoreIIApi/obj

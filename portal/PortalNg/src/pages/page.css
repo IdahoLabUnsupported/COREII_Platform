@@ -1,0 +1,7 @@
+.page-component {
+    height: calc(100vh - 4em);
+}
+
+.hidden {
+    display: none
+}

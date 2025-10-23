@@ -1,0 +1,39 @@
+{
+   "osti_id":"2467439",
+   "title":"Mojave Desert tortoise’s (Gopherus agassizii) cytb and CR Sequences to be submitted to GenBank",
+   "report_number":"DOE/NV/03624-2040",
+   "product_type":"Program Document",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"Cytb and non-coding DNA sequences from desert tortoises to submitted to GenBank: https://www.ncbi.nlm.nih.gov/genbank/",
+   "publication_date":"2025-02-25T00:00:00Z",
+   "entry_date":"2024-10-17T00:00:00Z",
+   "format":"Medium: ED",
+   "authors":[
+      "Liu, Xianan [Mission Support and Test Services, LLC (MSTS), North Las Vegas, NV (United States)]"
+   ],
+   "subjects":[
+      "54 ENVIRONMENTAL SCIENCES",
+      "Gopherus agassizii, mtDNA, cytochromoe b gene"
+   ],
+   "doe_contract_number":"DE-NA0003624",
+   "sponsor_orgs":[
+      "USDOE National Nuclear Security Administration (NNSA)"
+   ],
+   "research_orgs":[
+      "Nevada National Security Sites/Mission Support and Test Services LLC, Las Vegas, NV (United States)"
+   ],
+   "other_identifiers":[
+      "STIP WF - 47771987"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2467439"
+      },
+      {
+         "rel":"fulltext",
+         "href":"https://www.osti.gov/servlets/purl/2467439"
+      }
+   ]
+}

@@ -1,0 +1,51 @@
+{
+   "osti_id":"2474806",
+   "title":"Physics analysis and design of heavy water reflected thermal test reactor",
+   "report_number":"INL/JOU-24-76530-Rev001",
+   "doi":"https://doi.org/10.1016/j.anucene.2024.110966",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"This work investigates the option of modifying the Advanced Test Reactor by replacing the current beryllium reflector with heavy water. Such a change may provide some potential benefits for not only increasing the thermal irradiation capabilities but also resolving other problems such as reflector integrity issues due to fast fluence damage, which is always a limiting factor in the lifetime of the current beryllium reflector. This paper presents the analysis and estimation of the ATR core physics parameters by replacing the current beryllium reflector with heavy water (D2O). The paper first describes the details of two selected conceptual designs, which are partially reflected with either beryllium or graphite, and how they are derived from the baseline beryllium reflector concept. Then, reactor physics performance parameters for the two new concepts are assessed by comparing with those of the baseline concept. The performance parameters considered in this paper include in-pile tube neutron and gamma fluxes and heating rates, maximum loop voiding reactivity, core power behavior with different power splits, predicted cycle length with a given fuel loading, and thermal hydraulic analysis with a higher lobe power split. It is important to note that this study focuses on the reactor physics aspects and does not delve into the engineering challenges associated with such a design modification.",
+   "publication_date":"2025-02-01T00:00:00Z",
+   "entry_date":"2024-10-30T00:00:00Z",
+   "journal_name":"Annals of Nuclear Energy",
+   "journal_issue":"000",
+   "journal_volume":"211",
+   "format":"Medium: ED; Size: p. 0 - 0",
+   "authors":[
+      "Hiruta, Hikaru [Idaho National Laboratory] (ORCID:000000027186096X)",
+      "DeHart, Mark D [Idaho National Laboratory] (ORCID:0000000246864301)",
+      "Parisi, Carlo [Idaho National Laboratory] (ORCID:0000000199794215)"
+   ],
+   "subjects":[
+      "21 - SPECIFIC NUCLEAR REACTORS AND ASSOCIATED PLANTS",
+      "22 - GENERAL STUDIES OF NUCLEAR REACTORS",
+      "D2O",
+      "Thermal Test Reactor",
+      "ATR",
+      "Reflector"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"DE-AC07-05ID14517; AC07-05ID14517",
+   "sponsor_orgs":[
+      "58",
+      "USDOE Office of Nuclear Energy (NE)"
+   ],
+   "research_orgs":[
+      "Idaho National Laboratory (INL), Idaho Falls, ID (United States)"
+   ],
+   "other_identifiers":[
+      "Journal ID: 0306-4549"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2474806"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2474806"
+      }
+   ]
+}

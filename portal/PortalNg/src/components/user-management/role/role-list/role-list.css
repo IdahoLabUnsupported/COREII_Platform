@@ -1,0 +1,15 @@
+
+.role-row-name{
+    flex-basis: 25%;
+}
+.role-row-date-created{
+    width: 8.5em;
+}
+.role-row-permission-count{
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.role-row-name{
+    margin-left: 1em;
+}

@@ -1,0 +1,25 @@
+.role-edit{
+    max-width: calc(80em - 5em);
+    width: calc(100vw - 27em);
+    height: calc(100vh - 15em);
+    top: 11em;
+    position: absolute;
+    left: calc(calc(50vw - calc(calc(100vw - 25em) / 2) + 11em));
+    background-color: white;
+    padding: 2em;
+    border-radius: var(--rounded-box, 1rem);
+
+
+    background-color: gray;
+    border: solid #ffffff20;
+}
+.drag-drop-container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    min-height: 20em;
+    max-height: 40vh;
+    align-content:  stretch;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}

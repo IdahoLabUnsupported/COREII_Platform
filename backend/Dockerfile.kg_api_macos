@@ -1,0 +1,22 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+FROM python:3.12-alpine
+
+WORKDIR /code
+
+# update alpine packages
+RUN apk update && apk upgrade
+
+# copy and install the shared package first
+COPY ../kg/ /kg/
+RUN pip install --no-cache-dir --upgrade /kg/
+
+# copy the requirements over and install them
+COPY kg_api/requirements.txt /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+COPY kg_api/ /code/
+
+EXPOSE 8001
+
+CMD ["python", "main.py"]

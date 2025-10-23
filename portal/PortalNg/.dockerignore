@@ -1,0 +1,5 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+node_modules
+build
+npm-debug.log

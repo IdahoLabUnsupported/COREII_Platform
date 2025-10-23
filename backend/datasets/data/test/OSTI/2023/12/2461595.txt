@@ -1,0 +1,44 @@
+{
+    "osti_id": "2461595",
+    "title": "Elemental and layer based analysis of optical properties: A new technique applied to four MAX-phases",
+    "report_number": "NSC-614-6444",
+    "doi": "https://doi.org/10.1016/j.commatsci.2024.113393",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "We present here a novel technique to calculate partial contributions to the optical\r\nproperties by atoms, elements, and layers. Following the same methodology\r\nas the calculation of the partial density of states from the density of\r\nstates, we have decomposed the optical properties into the partial optical\r\nproperties. Using this technique the differences of elemental resolved optical\r\nproperties as well as layer-resolved optical properties are displayed for both\r\nthe 211 and 312 phases of TiSiC and TiAlC MAX-phase materials.",
+    "publication_date": "2025-01-01T00:00:00Z",
+    "entry_date": "2024-10-14T00:00:00Z",
+    "journal_name": "Computational Materials Science",
+    "journal_volume": "246",
+    "format": "Medium: ED; Size: Article No. 113393",
+    "authors": [
+        "Weigand, Alysse (ORCID:0009000705045186)",
+        "Rulis, Paul"
+    ],
+    "subjects": [
+        "optical properties, density functional theory, MAX-phase"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "DE-NA0002839",
+    "sponsor_orgs": [
+        "USDOE National Nuclear Security Administration (NNSA)"
+    ],
+    "research_orgs": [
+        "Kansas City Nuclear Security Campus (KCNSC), Kansas City, MO (United States)"
+    ],
+    "journal_issn": "ISSN 0927-0256",
+    "other_identifiers": [
+        "Journal ID: ISSN 0927-0256"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2461595"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2461595"
+        }
+    ]
+}

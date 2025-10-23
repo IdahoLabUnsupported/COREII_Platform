@@ -1,0 +1,45 @@
+{
+   "osti_id":"2461606",
+   "title":"Deep operator network surrogate for phase-field modeling of metal grain growth during solidification",
+   "report_number":"PNNL-SA-198433",
+   "doi":"https://doi.org/10.1016/j.commatsci.2024.113417",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"A deep operator network (DeepONet) has been constructed that generates accurate representations of phase-field model simulations for evolving two dimensional metal grain morphology growing from melt. These representations serve as lower resolution, computationally efficient stand-ins for quick parameter space exploration of solutions to the the Allen-Cahn equations that dictate the phase-field model simulations. The experimental target for the phase-field model is a uranium casting system cooling a 434 g uranium charge from a maximum temperature of 1400° C at an average rate of 30° C/min, traversing the crystallographic phases of the pure metal. Experimental parameters inform the phase-field model, whose higher resolution computational model solutions are used to train the DeepONet in a given parameter space with the aim of developing a faster, more efficient method for predicting the solidifying metal's microstructure at different potential experimental values. The final DeepONet generates high accuracy, lower resolution predictions with cumulative relative approximation error over all timesteps of less than 0.5%, while ensuring solutions remain within physically feasible ranges. These relative error values are comparable with other state-of-the-art DeepONet models for microstructure evolution, while significantly reducing the amount of training data required. Training a convolutional neural network simultaneously with the DeepONet, enforcing realistic values at the complex metal grain boundaries, and mathematically encoding boundary conditions into the structure of the DeepONet improved prediction accuracy and computational efficiency over a standard DeepONet model.",
+   "publication_date":"2025-01-31T00:00:00Z",
+   "entry_date":"2024-10-14T00:00:00Z",
+   "journal_name":"Computational Materials Science",
+   "journal_issue":"_",
+   "journal_volume":"246",
+   "format":"Medium: ED; Size: Art. No. 113417",
+   "authors":[
+      "Ciesielski, Danielle K. [BATTELLE (PACIFIC NW LAB)]",
+      "Li, Yulan [BATTELLE (PACIFIC NW LAB)]",
+      "Hu, Shenyang [BATTELLE (PACIFIC NW LAB)] (ORCID:0000000271873082)",
+      "King, Ethan [BATTELLE (PACIFIC NW LAB)]",
+      "Corbey, Jordan F. [BATTELLE (PACIFIC NW LAB)] (ORCID:0000000232733044)",
+      "Stinis, Panagiotis [BATTELLE (PACIFIC NW LAB)]"
+   ],
+   "subjects":[
+      "microstructure, deep operator network, metal, Phase-field Modeling, grains"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-76RL01830",
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2461606"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2461606"
+      }
+   ]
+}

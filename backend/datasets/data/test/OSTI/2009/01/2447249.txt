@@ -1,0 +1,39 @@
+{
+   "osti_id":"2447249",
+   "title":"Developing a new ethylene glycol/H2O pretreatment system to achieve efficient enzymatic hydrolysis of sugarcane bagasse cellulose and recover highly active lignin: Countercurrent extraction",
+   "doi":"https://doi.org/10.1016/j.seppur.2024.128564",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"Improving pretreatment efficiency is a critical premise in achieving efficient biomass conversion, and obtaining high-performance natural polymers is the guarantee of high-value conversion of biomass. In this study, a new pilot-scale continuous countercurrent pretreatment reaction unit about ethylene glycol-alkali solution was designed for pretreating sugarcane bagasse in order to achieve efficient separation of the three major components of lignocellulose when expanding the scale of pretreatment, reduce lignin deposition on the fiber surface, and obtain highly active lignin and excellent enzymatic hydrolysis efficiency of cellulose. X-ray diffractometer (XRD), X-ray photoelectron spectrometer (XPS), brunauer-emmett-teller (BET) and scanning electron microscope (SEM) methods are used to analyze the structural properties of sugarcane bagasse before and after pretreatment, and high-performance liquid chromatography (HPLC) is used to analyze the monosaccharide components in the enzymatic solution. In addition, the structural properties of the recovered lignin are analyzed by gel permeation chromatography (GPC), 31P NMR and 2D-HSQC-NMR methods. The results indicate that the system can gain a high cellulose recovery of 92.99% along with a lignin removal of 95.33%, and recovered lignin has low lignin carbohydrate complexes, low condensation, and rich in phenolic hydroxyl groups for 1.95 mmol/g. Meanwhile, the countercurrent pretreatment system can effectively reduce the deposition of lignin on the cellulose surface, which is evidently superior to the non-countercurrent pretreatment and facilitates the efficiency of enzymatic saccharification of substrate, achieving a high glucose yield of 99% as well as a total sugar yield of 91.11%. The method efficiently separates biomass in a green manner, and solid residues are easily hydrolyzed, showing potential for industrial-scale production.",
+   "publication_date":"2025-02-01T00:00:00Z",
+   "entry_date":"2024-09-25T00:00:00Z",
+   "journal_name":"Separation and Purification Technology",
+   "journal_issue":"1",
+   "journal_volume":"354",
+   "format":"Medium: ED; Size: 128564-",
+   "authors":[
+      "Ragauskas, Arthur [ORNL] (ORCID:000000023536554X)"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2447249"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2447249"
+      }
+   ]
+}

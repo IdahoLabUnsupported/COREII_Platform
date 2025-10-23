@@ -1,0 +1,50 @@
+{
+   "osti_id":"2475350",
+   "title":"The surface chemistry of cuprous oxide",
+   "report_number":"BNL-226300-2024-JAAM",
+   "doi":"https://doi.org/10.1016/j.susc.2024.122622",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"The chemical and electronic properties of copper combined with its large natural abundance lend this material to impact a wide range of technological applications, including heterogeneous catalysis. The reactivity of copper in its Cu1+ oxidation state makes this specific configuration relevant in various chemical reactions, but the facile redox properties of copper make the isolation of individual states for fundamental studies difficult. Here we review three Cu2O model systems used to study the interaction of Cu1+ with small molecules making use of surface science techniques: Cu2O/Cu(111), thin polycrystalline Cu2O films on Cu foil, and bulk Cu2O crystals. Advantages and disadvantages of each system are discussed and exemplified through case studies of chemical adsorption and reactivity studies.",
+   "publication_date":"2025-01-01T00:00:00Z",
+   "entry_date":"2024-11-01T00:00:00Z",
+   "journal_name":"Surface Science",
+   "journal_volume":"751",
+   "format":"Medium: ED",
+   "authors":[
+      "Head, Ashley L. (ORCID:0000000187330165)",
+      "Karagoz, Burcu",
+      "Xu, Fang",
+      "Head, Ashley R.",
+      "Weissenrieder, Jonas",
+      "Stacchiola, Dario"
+   ],
+   "subjects":[
+      "36 MATERIALS SCIENCE",
+      "APXPS",
+      "cuprous oxide",
+      "IRRAS"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"SC0012704",
+   "sponsor_orgs":[
+      "USDOE Office of Science (SC), Basic Energy Sciences (BES). Scientific User Facilities (SUF)"
+   ],
+   "research_orgs":[
+      "Brookhaven National Laboratory (BNL), Upton, NY (United States)"
+   ],
+   "other_identifiers":[
+      "Journal ID: 0039-6028"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2475350"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2475350"
+      }
+   ]
+}

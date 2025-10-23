@@ -1,0 +1,665 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --main-highlight-color: rgb(65,122,181)
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro',
+}
+
+#root > div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.9em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+/* .page-component{
+  background-color: rgb(33,41,54);
+  color: #f9f9f9;
+} */
+.input-focused:focus {
+  color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Accent Colors (blue) */
+    --color-accent-rgb-50: 226 245 254;
+    --color-accent-rgb-100: 183 230 252;
+    --color-accent-rgb-200: 137 214 250;
+    --color-accent-rgb-300: 95 197 246;
+    --color-accent-rgb-400: 70 185 244;
+    --color-accent-rgb-500: 57 172 242;
+    --color-accent-rgb-600: 53 158 226;
+    --color-accent-rgb-700: 48 139 206;
+    --color-accent-rgb-800: 44 122 186;
+    /* main */
+    --color-accent-rgb-900: 36 90 151;
+    --color-accent-hex-50: #e2f5fe;
+    --color-accent-hex-100: #b7e6fc;
+    --color-accent-hex-200: #89d6fa;
+    --color-accent-hex-300: #5fc5f6;
+    --color-accent-hex-400: #46b9f4;
+    --color-accent-hex-500: #39acf2;
+    --color-accent-hex-600: #359ee2;
+    --color-accent-hex-700: #308bce;
+    --color-accent-hex-800: #2c7aba;
+    /* main */
+    --color-accent-hex-900: #245a97;
+
+    /* Primary (gray) */
+    --color-primary-dark-rgb-50: 249 250 251;
+    --color-primary-dark-rgb-100: 243 244 246;
+    --color-primary-dark-rgb-200: 229 231 235;
+    --color-primary-dark-rgb-300: 209 213 219;
+    --color-primary-dark-rgb-400: 156 163 175;
+    --color-primary-dark-rgb-500: 107 114 128;
+    --color-primary-dark-rgb-600: 75 85 99;
+    --color-primary-dark-rgb-700: 55 65 81;
+    --color-primary-dark-rgb-800: 31 41 55;
+    --color-primary-dark-rgb-900: 17 24 39;
+    --color-primary-dark-rgb-950: 3 7 18;
+
+    --color-primary-dark-rgb-75: 246 247 248;
+    --color-primary-dark-rgb-150: 236 237 240;
+    --color-primary-dark-rgb-925: 10 16 29;
+
+    --color-primary-dark-hex-50: #f9fafb;
+    --color-primary-dark-hex-100: #f3f4f6;
+    --color-primary-dark-hex-200: #e5e7eb;
+    --color-primary-dark-hex-300: #d1d5db;
+    --color-primary-dark-hex-400: #9ca3af;
+    --color-primary-dark-hex-500: #6b7280;
+    --color-primary-dark-hex-600: #4b5563;
+    --color-primary-dark-hex-700: #374151;
+    --color-primary-dark-hex-800: #1f2937;
+    --color-primary-dark-hex-900: #111827;
+    --color-primary-dark-hex-950: #030712;
+
+    --color-primary-dark-hex-75: #f6f7f8;
+    --color-primary-dark-hex-150: #ecedf0;
+    --color-primary-dark-hex-925: #0d162b;
+
+    /* Reds */
+    --color-red-rgb-50: 254 242 242;
+    --color-red-rgb-100: 254 226 226;
+    --olor-red-rgb-200: 254 202 202;
+    --color-red-rgb-300: 252 165 165;
+    --color-red-rgb-400: 248 113 113;
+    --color-red-rgb-500: 239 68 68;
+    --color-red-rgb-600: 220 38 38;
+    --color-red-rgb-700: 185 28 28;
+    --color-red-rgb-800: 153 27 27;
+    --color-red-rgb-900: 124 45 18;
+    --color-red-rgb-950: 69 10 10;
+    --color-red-hex-50: #fef2f2;
+    --color-red-hex-100: #fee2e2;
+    --color-red-hex-200: #fecaca;
+    --color-red-hex-300: #fca5a5;
+    --color-red-hex-400: #f87171;
+    --color-red-hex-500: #ef4444;
+    --color-red-hex-600: #dc2626;
+    --color-red-hex-700: #b91c1c;
+    --color-red-hex-800: #991b1b;
+    --color-red-hex-900: #7c2d12;
+    --color-red-hex-950: #450a0a;
+
+    /* Greens */
+    --color-green-hex-50: #f0fdf4;
+    --color-green-hex-100: #dcfce7;
+    --color-green-hex-200: #bbf7d0;
+    --color-green-hex-300: #86efac;
+    --color-green-hex-400: #4ade80;
+    --color-green-hex-500: #22c55e;
+    --color-green-hex-600: #16a34a;
+    --color-green-hex-700: #15803d;
+    --color-green-hex-800: #166534;
+    --color-green-hex-900: #14532d;
+    --color-green-hex-950: #052e16;
+
+    /* Oranges */
+    --color-orange-hex-50: #fff7ed;
+    --color-orange-hex-100: #ffedd5;
+    --color-orange-hex-200: #fed7aa;
+    --color-orange-hex-300: #fdba74;
+    --color-orange-hex-400: #fb923c;
+    --color-orange-hex-500: #f97316;
+    --color-orange-hex-600: #ea580c;
+    --color-orange-hex-700: #c2410c;
+    --color-orange-hex-800: #9a3412;
+    --color-orange-hex-900: #7c2d12;
+    --color-orange-hex-950: #431407;
+
+    --color-graph-hex-blue: var(--color-accent-hex-800);
+    --color-graph-hex-green: var(--color-green-hex-500);
+    --color-graph-hex-red: var(--color-red-hex-500);
+    --color-graph-hex-orange: var(--color-orange-hex-600);
+    --color-graph-hex-light-orange: var(--color-orange-hex-200);
+    --color-graph-hex-light-blue: var(--color-accent-hex-200);
+
+    --color-graph-blue: blue;
+    --color-graph-green: green;
+    --color-graph-red: red;
+
+    /* 44 122 186; */
+    --color-scrollbar-track-light: var(--color-primary-dark-hex-300);
+    --color-scrollbar-track-dark: var(--color-primary-dark-hex-800);
+
+    --skeleton-base-color: rgb(var(--color-primary-dark-rgb-600) / 1);
+    --skeleton-highlight-color: rgb(var(--color-primary-dark-rgb-500) / 1);
+    --skeleton-base-color-light: rgb(var(--color-primary-dark-rgb-400) / 1);
+    --skeleton-highlight-color-light: rgb(var(--color-primary-dark-rgb-300) / 1);
+
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+@layer components {
+  .link {
+    @apply no-underline text-primary hover:text-blue-400 dark:text-blue-300 dark:hover:text-primary;
+  }
+
+  .llm-response p {
+    @apply mb-4;
+  }
+
+  .llm-response ol {
+    @apply space-y-2 list-disc pl-6 mb-4;
+  }
+
+  .llm-response ul {
+    @apply space-y-2 list-disc pl-6 mb-4;
+  }
+
+  .llm-response table {
+    @apply w-full border-collapse border border-gray-300 dark:border-gray-600 text-xs my-4;
+  }
+
+  .llm-response thead {
+    @apply bg-gray-100 dark:bg-gray-700;
+  }
+
+  .llm-response th {
+    @apply border border-gray-300 dark:border-gray-600 px-4 py-3 text-left font-semibold align-top;
+  }
+
+  .llm-response td {
+    @apply border border-gray-300 dark:border-gray-600 px-4 py-3 align-top leading-relaxed;
+  }
+
+  .llm-response tr:hover {
+    @apply bg-gray-50 dark:bg-gray-800;
+  }
+
+  sub {
+    vertical-align: sub;
+    font-size: 0.75em;
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: 0.75em;
+  }
+
+  .text-muted {
+    @apply text-slate-700 dark:text-slate-300;
+  }
+}
+
+/*@layer base {*/
+/*  :root {*/
+/*    !* Accent Colors (blue) *!*/
+/*        !* #e2f5fe *!*/
+/*          --color-accent-50: 226 245 254;*/
+/*          !* #b7e6fc *!*/
+/*          --color-accent-100: 183 230 252;*/
+/*          !* #89d6fa *!*/
+/*          --color-accent-200: 137 214 250;*/
+/*          !* #5fc5f6 *!*/
+/*          --color-accent-300: 95 197 246;*/
+/*          !* #46b9f4 *!*/
+/*          --color-accent-400: 70 185 244;*/
+/*          !* #39acf2 *!*/
+/*          --color-accent-500: 57 172 242;*/
+/*          !* #359ee2 *!*/
+/*          --color-accent-600: 53 158 226;*/
+/*          !* #308bce *!*/
+/*          --color-accent-700: 48 139 206;*/
+/*          !* #2c7aba primary *!*/
+/*          --color-accent-800: 44 122 186;*/
+/*          !* #245a97 *!*/
+/*          --color-accent-900: 36 90 151;*/
+
+/*          !* Primary (gray) *!*/
+/*          !* #f9fafb *!*/
+/*          --color-primary-dark-50: 249 250 251;*/
+/*          !* #f3f4f6 *!*/
+/*          --color-primary-dark-100: 243 244 246;*/
+/*          !* #e5e7eb *!*/
+/*          --color-primary-dark-200: 229 231 235;*/
+/*          !* #d1d5db *!*/
+/*          --color-primary-dark-300: 209 213 219;*/
+/*          !* #9ca3af *!*/
+/*          --color-primary-dark-400: 156 163 175;*/
+/*          !* #6b7280 *!*/
+/*          --color-primary-dark-500: 107 114 128;*/
+/*          !* #4b5563 *!*/
+/*          --color-primary-dark-600: 75 85 99;*/
+/*          !* #374151 *!*/
+/*          --color-primary-dark-700: 55 65 81;*/
+/*          !* #1f2937 *!*/
+/*          --color-primary-dark-800: 31 41 55;*/
+/*          !* #111827 *!*/
+/*          --color-primary-dark-900: 17 24 39;*/
+/*          !* #030712 *!*/
+/*          --color-primary-dark-900: 3 7 18;*/
+/*          */
+/*        !* Primary Light (Slate) *!*/
+/*          !* #f8fafc *!*/
+/*            --color-primary-light-50: 248 250 252;*/
+/*            !* #f1f5f9 *!*/
+/*            --color-primary-light-100: 241 245 249;*/
+/*            !* #e2e8f0 *!*/
+/*            --color-primary-light-200: 226 232 240;*/
+/*            !* #cbd5e1 *!*/
+/*            --color-primary-light-300: 203 213 225;*/
+/*            !* #94a3b8 *!*/
+/*            --color-primary-light-400: 148 163 184;*/
+/*            !* #64748b *!*/
+/*            --color-primary-light-500: 100 116 139;*/
+/*            !* #475569 *!*/
+/*            --color-primary-light-600: 71 85 105;*/
+/*            !* #334155 *!*/
+/*            --color-primary-light-700: 51 65 85;*/
+/*            !* #1e293b *!*/
+/*            --color-primary-light-800: 30 41 59;*/
+/*            !* #0f172a *!*/
+/*            --color-primary-light-900: 15 23 42;*/
+/*            !* #020617 *!*/
+/*            --color-primary-light-900: 2 6 23;*/
+
+/*    !* 44 122 186; *!*/
+/*    --color-scrollbar-track-light: 241 241 241;*/
+/*    --color-scrollbar-track-dark: 156 163 175;*/
+
+/*  }*/
+/*}*/
+
+.logo-btn {
+  height: 35px !important;
+  width: 35px !important;
+  min-height: unset !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(var(--color-accent-800) / 1);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgb(var(--color-scrollbar-track-dark) / 1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* rgb(44, 122, 186); */
+  background: rgb(var(--color-accent-800) / 1);
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--color-accent-900) / 1);
+}
+
+.page-component {
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+
+}
+
+code {
+  background: rgb(var(--color-primary-dark-200) / 1);
+  padding: 5px;
+}
+
+.card-responsive-value {
+  font-size: clamp(1rem, 3.75rem, 3.75rem);
+  /* Adjust the 3.75rem middle value as needed. clamp(min, preferred, max) */
+  display: flex;
+  /* Set the element as a flex container */
+  align-items: center;
+  /* Center the content vertically */
+  justify-content: center;
+  /* Center the content horizontally */
+  overflow: hidden;
+  /* Hide any content that overflows */
+  box-sizing: border-box;
+  /* Consider padding and border in the width calculation */
+  width: 100%;
+  /* Ensure the element takes full width */
+}
+
+.card-responsive-value>h2 {
+  width: fit-content;
+  /* Calculate the ideal width for the content */
+}
+
+.carousel-item:not(.current-slide) img {
+  filter: grayscale(100%);
+}
+
+.embla {
+  overflow: hidden;
+  --mask: linear-gradient(to right,
+      rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 0.5in,
+      rgba(0, 0, 0, 1) calc(100% - 0.5in), rgba(0, 0, 0, 0) 100%) 100% 50% / 100% 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 600px;
+  grid-column-gap: 20px;
+}
+
+.dark .steps .step.step-primary:after {
+  outline: 3px solid rgb(var(--color-accent-800));
+  /* Substitute with your desired color */
+  outline-offset: 3px;
+}
+
+.light .steps .step.step-primary:after {
+  outline: 3px solid rgb(var(--color-accent-800));
+  /* Substitute with your desired color */
+  outline-offset: 3px;
+}
+
+.single-break {
+  break-after: always;
+}
+
+.double-break {
+  margin-bottom: 1.6rem;
+  /* Adjust based on your font-size */
+}
+
+.allow-column-break {
+  break-inside: auto;
+}
+
+svg {
+  display: unset;
+  vertical-align: unset;
+}
+
+.tooltip {
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-grow-50 {
+  flex-grow: .250;
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 160px;
+  max-height: 100vh;
+}
+
+.slider-height {
+  min-height: 500px !important;
+  height: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+/* DARK */
+/* *********************************************************************** */
+.ag-theme-alpine-dark.custom-dark {
+  --ag-foreground-color: white;
+  --ag-background-color: var(--color-primary-dark-hex-700);
+  --ag-odd-row-background-color: rgb(var(--color-primary-dark-rgb-600));
+  --ag-header-foreground-color: white;
+  --ag-header-background-color: var(--color-primary-dark-hex-900);
+  --ag-header-column-resize-handle-color: var(--color-primary-dark-hex-950);
+  --ag-header-cell-hover-background-color: var(--color-primary-dark-hex-700);
+  --ag-header-cell-hover-foreground-color: white;
+  --ag-selected-row-background-color: rgb(var(--color-primary-dark-rgb-800));
+  --ag-borders: none;
+  --ag-font-size: 14px;
+  --ag-font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-header-row,
+.ag-theme-alpine-dark.custom-dark .ag-paging-panel {
+  color: var(--ag-header-foreground-color);
+  background-color: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-row-hover::before,
+.ag-theme-alpine-dark.custom-dark .ag-row-hover {
+  color: white;
+  background-color: rgb(var(--color-primary-dark-rgb-800));
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-row-focus.ag-row-hover::before {
+  color: white;
+  background-color: rgb(var(--color-primary-dark-rgb-900));
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-row-focus {
+  color: white;
+  background-color: rgb(var(--color-primary-dark-rgb-800));
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-row-no-focus {
+  color: white;
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-paging-panel {
+  color: white;
+}
+
+.ag-theme-alpine-dark.custom-dark .ag-header-cell:hover .ag-icon {
+  color: white;
+}
+
+/* Custom scrollbar for dark theme */
+.ag-theme-alpine-dark.custom-dark ::-webkit-scrollbar {
+  width: 12px;
+}
+
+.ag-theme-alpine-dark.custom-dark ::-webkit-scrollbar-track {
+  background: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine-dark.custom-dark ::-webkit-scrollbar-thumb {
+  background-color: var(--ag-header-foreground-color);
+  border-radius: 6px;
+  border: 3px solid var(--ag-header-background-color);
+}
+
+/* *********************************************************************** */
+
+/* LIGHT */
+/* *********************************************************************** */
+.ag-theme-alpine.custom-light {
+  --ag-foreground-color: black;
+  --ag-background-color: white;
+  --ag-odd-row-background-color: rgb(var(--color-primary-dark-rgb-100));
+  --ag-header-foreground-color: black;
+  --ag-header-background-color: var(--color-primary-dark-hex-300);
+  --ag-header-column-resize-handle-color: var(--color-primary-dark-hex-50);
+  --ag-header-cell-hover-background-color: var(--color-primary-dark-hex-300);
+  --ag-header-cell-hover-foreground-color: black;
+  --ag-selected-row-background-color: rgb(var(--color-primary-dark-rgb-200));
+  --ag-borders: none;
+  --ag-font-size: 14px;
+  --ag-font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+}
+
+.ag-theme-alpine.custom-light .ag-header-row,
+.ag-theme-alpine.custom-light .ag-paging-panel {
+  color: var(--ag-header-foreground-color);
+  background-color: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine.custom-light .ag-row-hover::before,
+.ag-theme-alpine.custom-light .ag-row-hover {
+  color: black;
+  background-color: rgb(var(--color-primary-dark-rgb-200));
+}
+
+.ag-theme-alpine.custom-light .ag-row-focus.ag-row-hover::before {
+  color: black;
+  background-color: rgb(var(--color-primary-dark-rgb-100));
+}
+
+.ag-theme-alpine.custom-light .ag-row-focus {
+  color: black;
+  background-color: rgb(var(--color-primary-dark-rgb-200));
+}
+
+.ag-theme-alpine.custom-light .ag-row,
+.ag-theme-alpine.custom-light .ag-header,
+.ag-theme-alpine.custom-light .ag-paging-panel {
+  border: none;
+}
+
+.ag-theme-alpine.custom-light .ag-row-no-focus {
+  color: black;
+}
+
+.ag-theme-alpine.custom-light .ag-paging-panel {
+  color: black;
+}
+
+.ag-theme-alpine.custom-light .ag-header-cell:hover .ag-icon {
+  color: black;
+}
+
+/* Custom scrollbar for light theme */
+.ag-theme-alpine.custom-light ::-webkit-scrollbar {
+  width: 12px;
+}
+
+.ag-theme-alpine.custom-light ::-webkit-scrollbar-track {
+  background: var(--ag-header-background-color);
+}
+
+.ag-theme-alpine.custom-light ::-webkit-scrollbar-thumb {
+  background-color: var(--ag-header-foreground-color);
+  border-radius: 6px;
+  border: 3px solid var(--ag-header-background-color);
+}
+
+/* *********************************************************************** */
+/*CHat styles */
+.vertical-text {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.rotated {
+  transform: rotate(270deg);
+}

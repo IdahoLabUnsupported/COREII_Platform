@@ -1,0 +1,32 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    description: "Postgres Operator"
+    owner: "INL"
+    version: "1.0.0"
+  labels:
+    app: "pgo"
+    environment: "prod"
+  name: postgres-operator
+  namespace: argocd
+spec:
+  destination:
+    name: ""
+    namespace: pgo
+    server: "https://kubernetes.default.svc"
+  source:
+    path: k8s/charts/postgresql/pgo
+    repoURL: "git@github.inl.gov:COREII/COREII-Data-Lake.git"
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - ServerSideApply=true
+      - CreateNamespace=true

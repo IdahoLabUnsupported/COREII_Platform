@@ -1,0 +1,32 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    description: "KG API"
+    owner: "INL"
+    version: "1.0.0"
+  labels:
+    app: "kg-api"
+    environment: "prod"
+  name: kg-api
+  namespace: argocd
+spec:
+  destination:
+    name: ""
+    namespace: api
+    server: "https://kubernetes.default.svc"
+  source:
+    path: k8s/manifests/kg-api
+    repoURL: "git@github.inl.gov:COREII/COREII-Data-Lake.git"
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true

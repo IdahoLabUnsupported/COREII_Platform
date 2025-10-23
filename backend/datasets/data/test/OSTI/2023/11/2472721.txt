@@ -1,0 +1,44 @@
+{
+   "osti_id":"2472721",
+   "title":"Flow maldistribution in plate heat exchangers – Impact, analysis, and solutions",
+   "doi":"https://doi.org/10.1016/j.rser.2024.114905",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"Plate heat exchangers are commonly used in various industrial applications, such as refrigeration, air conditioning, heat pumps, powerplants, and chemical industries. Plate heat exchangers are well known for their superior heat transfer performance, compactness, and low refrigerant charge. Despite offering several advantages, they suffer from flow maldistribution issues. The flow maldistribution can deteriorate both the heat transfer and pressure drop performance, ultimately resulting in a lower system efficiency where plate heat exchangers are deployed. The flow maldistribution issues become more pronounced when the heat exchanger size is relatively large and the number of plates is higher, limiting the deployment of plate heat exchangers in larger industrial systems. Consequently, analyzing and understanding the flow maldistribution behavior in plate heat exchangers and finding ways to mitigate flow maldistribution related issues become essential topics of interest. This review aims to address the effect of flow maldistribution on plate heat exchanger characteristics. First, the experimental and numerical works on flow maldistribution under single-phase and two-phase conditions are detailed. Subsequently, the end-channel and end-plate effects are discussed. Then, the methods to mitigate flow maldistribution in plate heat exchangers are outlined. Finally, based on a thorough literature survey and industrial requirements, future research directions are recommended.",
+   "publication_date":"2025-01-01T00:00:00Z",
+   "entry_date":"2024-10-23T00:00:00Z",
+   "journal_name":"Renewable and Sustainable Energy Reviews",
+   "journal_volume":"207",
+   "format":"Medium: ED; Size: 114905-",
+   "authors":[
+      "Murugan, Muneeshwaran [ORNL] (ORCID:000000033403528X)",
+      "Kim, Hyun Jin [University of Alabama, Tuscaloosa]",
+      "Tayyab, Muhammad [University of Alabama, Tuscaloosa]",
+      "Li, Wenzhe [Central South University, China]",
+      "Nawaz, Kashif [ORNL] (ORCID:0000000251612491)",
+      "Yang, Cheng-Min [ORNL]"
+   ],
+   "article_type":"Accepted Manuscript",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE",
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE)"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2472721"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2472721"
+      }
+   ]
+}

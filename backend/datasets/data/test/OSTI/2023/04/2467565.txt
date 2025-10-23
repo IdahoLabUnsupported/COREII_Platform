@@ -1,0 +1,49 @@
+{
+   "osti_id":"2467565",
+   "title":"Demand response for frequency regulation: Research continuity and knowledge gaps",
+   "doi":"https://doi.org/10.1016/j.rser.2024.114958",
+   "product_type":"Journal Article",
+   "language":"English",
+   "country_publication":"United Kingdom",
+   "description":"Frequency regulation is an increasingly important task in the presence of intermittent renewable generation and growing loads in the distribution energy systems. Some of the frequency regulation can be provided by leveraging demand response, relieving the pressure to build additional generating assets. The use of demand response for frequency regulation services has given rise to many theoretical and experimental studies related to demand response for providing frequency regulation. Despite the growing body of research, it is often difficult to establish the continuity of research efforts from modelling of basic systems to modelling of complex systems to practical feasibility. This study reviews models of individual devices, followed by studies of device fleets models, microgrid models, and experimental implementation of demand response. In each reviewed study, the review analyses the stated goals of demand response, its limitations, the architecture of sensing and communication, and the control approach. The study further discusses the transitions between groups of studies and how the differences between respective groups lead to changes in modelling or implementation approaches. Thus, the review provides a comprehensive view of the state of the art and identify, where applicable, research gaps and potential areas of improvement.",
+   "publication_date":"2025-01-01T00:00:00Z",
+   "entry_date":"2024-10-16T00:00:00Z",
+   "publisher":"Elsevier",
+   "journal_name":"Renewable and Sustainable Energy Reviews",
+   "journal_issue":"C",
+   "journal_volume":"207",
+   "format":"Medium: X; Size: Article No. 114958",
+   "authors":[
+      "Tsybina, Eve",
+      "Winstead, Chris",
+      "Ollis, Ben",
+      "Olama, Mohammed (ORCID:0000000238902064)",
+      "Kuruganti, Teja"
+   ],
+   "article_type":"Published Article",
+   "doe_contract_number":"AC05-00OR22725",
+   "subjects":[
+      
+   ],
+   "sponsor_orgs":[
+      "USDOE Office of Energy Efficiency and Renewable Energy (EERE)",
+      "USDOE"
+   ],
+   "research_orgs":[
+      "Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)"
+   ],
+   "journal_issn":"ISSN 1364-0321",
+   "other_identifiers":[
+      "Journal ID: ISSN 1364-0321;  S1364032124006841; 114958; PII: S1364032124006841"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2467565"
+      },
+      {
+         "rel":"citation_doe_pages",
+         "href":"https://www.osti.gov/pages/biblio/2467565"
+      }
+   ]
+}

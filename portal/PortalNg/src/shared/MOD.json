@@ -1,0 +1,87 @@
+{
+  "title": "Compressor Station Modeling and Simulation Test #5, Jan 15, 2025",
+  "summary": "COREII Modeling and Simulation Team conducted a test on the Standard Natural Gas Compressor Station Model. The team included researchers from SNL and INL. The primary goal of the test was to leverage MITRE Caldera Adversary Emulation against a compressor station safety control system to cause a loss of safety and unsafe activities.",
+  "sections": [
+    {
+      "title": "Test Procedure",
+      "content": [
+        "COREII Test Procedure .doc/pdf"
+      ]
+    },
+    {
+      "title": "Physics Data",
+      "content": [
+        "Physics Data Time Series.csv",
+        "Physics Graph Output plots.png"
+      ]
+    },
+    {
+      "title": "Adversary Emulation Data",
+      "content": [
+        "Caldera report.json",
+        "Caldera report.pdf"
+      ]
+    },
+    {
+      "title": "Network Data",
+      "content": [
+        "Packet Captures from the minimega environment",
+        ".pcap Files"
+      ]
+    },
+    {
+      "title": "Host Data",
+      "content": [
+        {
+          "title": "VM Images from Minimega",
+          "content": [
+            "QEMU files"
+          ]
+        },
+        {
+          "title": "Disk Images",
+          "content": [
+            "plc.qcow or .qcow2",
+            "engineeringworkstation.raw",
+            ".vdi",
+            ".vdmk",
+            ".iso"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tool Data",
+      "content": [
+        {
+          "title": "CATCH",
+          "content": [
+            "130 STIX Bundles.json",
+            "Screen Captures of tool in use.png",
+            "Video of Tool in use.mp4"
+          ]
+        },
+        {
+          "title": "STIG",
+          "content": [
+            "Screen Captures of tool in use.png",
+            "Video of Tool in use.mp4"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Video Recording",
+      "content": [
+        "Jan 15 Mod_Simulation Test 5-Meeting Recording.mp4.html"
+      ]
+    },
+    {
+      "title": "Supporting Publications",
+      "content": [
+        "IEEE Research Paper",
+        "Task Order"
+      ]
+    }
+  ]
+}

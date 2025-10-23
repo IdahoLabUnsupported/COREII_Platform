@@ -1,0 +1,24 @@
+// Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+import React from "react";
+import { useEffect, useState } from "react";
+import { Droppable, DroppableProps } from "react-beautiful-dnd";
+
+export const StrictModeDroppable = ({ children, ...props }: DroppableProps) => {
+    const [enabled, setEnabled] = useState(false);
+
+    useEffect(() => {
+        const animation = requestAnimationFrame(() => setEnabled(true));
+
+        return () => {
+            console.log("cancel");
+            cancelAnimationFrame(animation);
+            setEnabled(false);
+        };
+    }, []);
+
+    if (!enabled) {
+        return null;
+    }
+
+    return <Droppable {...props}>{children}</Droppable>;
+};

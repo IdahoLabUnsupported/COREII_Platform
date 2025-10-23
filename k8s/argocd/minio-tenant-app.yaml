@@ -1,0 +1,31 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    description: "Minio Tenant"
+    owner: "INL"
+    version: "1.0.0"
+  labels:
+    app: "minio-tenant"
+    environment: "prod"
+  name: minio-tenant
+  namespace: argocd
+spec:
+  destination:
+    name: ""
+    namespace: minio
+    server: "https://kubernetes.default.svc"
+  source:
+    path: k8s/charts/minio/tenant
+    repoURL: "git@github.inl.gov:COREII/COREII-Data-Lake.git"
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

@@ -1,0 +1,32 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    description: "Longhorn"
+    owner: "INL"
+    version: " 1.0.0"
+  labels:
+    app: "longhorn"
+    environment: "prod"
+  name: longhorn
+  namespace: argocd
+spec:
+  destination:
+    name: ""
+    namespace: longhorn-system
+    server: "https://kubernetes.default.svc"
+  source:
+    path: k8s/charts/longhorn
+    repoURL: "git@github.inl.gov:COREII/COREII-Data-Lake.git"
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true

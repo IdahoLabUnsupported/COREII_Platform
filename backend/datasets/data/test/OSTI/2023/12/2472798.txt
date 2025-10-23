@@ -1,0 +1,39 @@
+{
+    "osti_id": "2472798",
+    "title": "Source Term Estimation Using Noble Gas and Aerosol Samples",
+    "report_number": "PNNL-SA-200262",
+    "doi": "https://doi.org/10.1016/j.jenvrad.2024.107544",
+    "product_type": "Journal Article",
+    "language": "English",
+    "country_publication": "United States",
+    "description": "Algorithms that estimate the location, time, and magnitude of a point-source atmospheric release using remotely sampled air concentrations typically use data for a single chemical or radioactive isotope. A Bayesian algorithm is presented that uses data from multiple radioactive isotopes that are all released in the same short-duration event. Data from noble gas and aerosol samplers can be used simultaneously in the model. Application to a large synthetic data set using four isotopes shows the new algorithm generally gives more accurate location and time estimates than a comparable model using a single isotope.",
+    "publication_date": "2024-12-31T00:00:00Z",
+    "entry_date": "2024-10-22T00:00:00Z",
+    "journal_name": "Journal of Environmental Radioactivity",
+    "journal_issue": "_",
+    "journal_volume": "280",
+    "format": "Medium: ED; Size: Art. No. 107544",
+    "authors": [
+        "Eslinger, Paul W. [BATTELLE (PACIFIC NW LAB)]",
+        "Milbrath, Brian D. [BATTELLE (PACIFIC NW LAB)]"
+    ],
+    "article_type": "Accepted Manuscript",
+    "doe_contract_number": "AC05-76RL01830",
+    "subjects": [],
+    "sponsor_orgs": [
+        "USDOE"
+    ],
+    "research_orgs": [
+        "Pacific Northwest National Laboratory (PNNL), Richland, WA (United States)"
+    ],
+    "links": [
+        {
+            "rel": "citation",
+            "href": "https://www.osti.gov/biblio/2472798"
+        },
+        {
+            "rel": "citation_doe_pages",
+            "href": "https://www.osti.gov/pages/biblio/2472798"
+        }
+    ]
+}

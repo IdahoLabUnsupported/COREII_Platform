@@ -1,0 +1,117 @@
+.admin-list{
+    height: calc(100vh - 4em);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 80em;
+}
+
+.admin-list-title {
+    color: rgb(55, 65, 81);
+}
+
+.admin-list-body{    
+    border-radius: var(--rounded-box, 1rem);
+ 
+    padding: 40px;
+    height:100%;
+}
+
+.admin-list-description{
+    display: flex;
+    max-width: 40em;
+    margin-bottom: 1em;
+}
+.admin-list-table{
+    border: solid 1px #ffffff30;
+}
+.admin-list-table div{
+display: flex;
+}
+.admin-table-row{
+
+    display: flex;
+    flex-direction: row;
+    padding: .5em 0;
+}
+
+.admin-table-headers{
+    font-weight: 700;
+}
+.admin-table-row-selectable:nth-child(odd){
+    background-color: #ffffff1a;
+}
+.admin-table-row-selectable:nth-child(even){
+    background-color: #ffffff10;    
+}
+.admin-table-row-selectable:hover{
+    border: solid 1px #ffffff50;
+    background-color: #ffffff30;    
+}
+
+.admin-table-row div{
+    display: flex;
+}
+
+.admin-edit-container{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+.admin-edit-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.admin-edit-buttons{
+    margin-top: auto;
+}
+
+/* input {
+    background: #ffffff40;
+    padding: 0 4px;
+    border-radius: 6px;
+  }
+  input:focus {
+    background: white;
+    border: 1px solid grey;
+  }
+
+  input:focus-visible{
+    outline-color: #00000060
+  } */
+  .admin-drag-drop-container{
+    width: 32em;
+    display: flex;
+    flex-direction: row;
+    min-height: 20em;
+    max-height: 40vh;
+    align-content:  stretch;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    margin-top:2em;
+  }
+  .admin-edit-buttons{
+    display: flex;
+    flex-direction: row;
+  }
+  .admin-edit-buttons button{
+    margin-right: 1em;
+    width: 8em
+  }
+  .admin-detail-edit{
+    max-width: calc(80em - 5em);
+    width: calc(100vw - 27em);
+    height: calc(100vh - 15em);
+    top: 11em;
+    position: absolute;
+    left: calc(calc(50vw - calc(calc(100vw - 25em) / 2) + 11em));
+    background-color: white;
+    padding: 2em;
+    border-radius: var(--rounded-box, 1rem);
+
+
+    background-color: gray;
+    border: solid #ffffff20;
+}

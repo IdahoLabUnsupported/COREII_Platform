@@ -1,0 +1,32 @@
+# Copyright 2025, Battelle Energy Alliance, LLC, ALL RIGHTS RESERVED
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    description: "Postgres Cluster"
+    owner: "INL"
+    version: "1.0.0"
+  labels:
+    app: "postgres-cluster"
+    environment: "prod"
+  name: postgres-cluster
+  namespace: argocd
+spec:
+  destination:
+    name: ""
+    namespace: pgo
+    server: "https://kubernetes.default.svc"
+  source:
+    path: k8s/charts/postgresql/postgres-cluster
+    repoURL: "git@github.inl.gov:COREII/COREII-Data-Lake.git"
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true

@@ -1,0 +1,14 @@
+.mini-trigger-button {
+    width: 5em;
+    height: 2em;
+    font-size: 50%;
+    cursor: pointer;
+    display: flex;
+    border-radius: var(--rounded-box, 1rem);
+    color: black;
+
+}
+
+.mini-trigger-button span {
+    margin: auto;
+}

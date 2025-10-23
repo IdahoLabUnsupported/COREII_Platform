@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreIIApi", "CoreIIApi.csproj", "{18FF6F34-1C05-4D1B-9229-634175CB1D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18FF6F34-1C05-4D1B-9229-634175CB1D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FF6F34-1C05-4D1B-9229-634175CB1D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FF6F34-1C05-4D1B-9229-634175CB1D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FF6F34-1C05-4D1B-9229-634175CB1D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC62227A-3539-4F30-85D5-C297489B1786}
+	EndGlobalSection
+EndGlobal

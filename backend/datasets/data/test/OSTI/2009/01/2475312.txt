@@ -1,0 +1,41 @@
+{
+   "osti_id":"2475312",
+   "title":"STEM Professional Development Program for Nuclear Security Science and Technology Consortium",
+   "report_number":"DOE/NV/03624-2061",
+   "product_type":"Program Document",
+   "language":"English",
+   "country_publication":"United States",
+   "description":"This oral presentation captures the technical and developmental aspect of the program in support of UNLV. The goal of this project is to develop a steady pipeline of STEM educated professionals in area of national and international nuclear security. The goal is to train university students at NNSS laboratories in studies motivated by global nuclear security topics ranging from nuclear emergency response and management to physics experiments for stockpile stewardship program.",
+   "publication_date":"2025-03-19T00:00:00Z",
+   "entry_date":"2024-11-01T00:00:00Z",
+   "format":"Medium: ED",
+   "authors":[
+      "Mukhopadhyay, Sanjoy [Mission Support and Test Services, LLC (MSTS), North Las Vegas, NV (United States)]",
+      "Guss, Paul P. [Mission Support and Test Services, LLC (MSTS), North Las Vegas, NV (United States)]",
+      "Maurer, Richard J. [Mission Support and Test Services, LLC (MSTS), North Las Vegas, NV (United States)]",
+      "Doney, Noah E. [Mission Support and Test Services, LLC (MSTS), North Las Vegas, NV (United States)]"
+   ],
+   "subjects":[
+      "96 KNOWLEDGE MANAGEMENT AND PRESERVATION"
+   ],
+   "doe_contract_number":"DE-NA0003624",
+   "sponsor_orgs":[
+      "USDOE National Nuclear Security Administration (NNSA), Office of Emergency Operations"
+   ],
+   "research_orgs":[
+      "Nevada National Security Sites/Mission Support and Test Services LLC, Las Vegas, NV (United States)"
+   ],
+   "other_identifiers":[
+      "STIP WF - 48705912"
+   ],
+   "links":[
+      {
+         "rel":"citation",
+         "href":"https://www.osti.gov/biblio/2475312"
+      },
+      {
+         "rel":"fulltext",
+         "href":"https://www.osti.gov/servlets/purl/2475312"
+      }
+   ]
+}
