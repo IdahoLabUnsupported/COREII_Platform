@@ -40,3 +40,12 @@ Kendra A Morris
 Scott T Bowman
 
 
+
+This code was created with the following AGPL 3.0 licensed OSS projects.  The AGPL 3.0 license is found at:  https://opensource.org/license/agpl-v3
+
+Grafana - AGPL-3.0 https://github.com/grafana/grafana/tree/v11.3.2
+Grafana Promtail - AGPL-3.0 https://github.com/grafana/loki/tree/v3.3.2 
+Grafana Loki -AGPL-3.0 https://github.com/grafana/loki/tree/v3.3.2
+
+
+
